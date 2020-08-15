@@ -1,0 +1,52 @@
+// fonts
+$font-primary: 'Raleway', sans-serif;
+
+// colours
+/* SCSS HEX */
+$prussian-blue: #003049ff;
+$maximum-red: #d62828ff;
+$orange: #f77f00ff;
+$maximum-yellow-red: #fcbf49ff;
+$mantis: #8cd867ff;
+$emerald: #2fbf71ff;
+$bottle-green: #0b6e4fff;
+$gainsboro: #e0e0e2ff;
+
+/* SCSS HSL */
+$prussian-blue: hsla(201, 100%, 14%, 1);
+$maximum-red: hsla(0, 69%, 50%, 1);
+$orange: hsla(31, 100%, 48%, 1);
+$maximum-yellow-red: hsla(40, 97%, 64%, 1);
+$mantis: hsla(100, 59%, 63%, 1);
+$emerald: hsla(147, 61%, 47%, 1);
+$bottle-green: hsla(161, 82%, 24%, 1);
+$gainsboro: hsla(240, 3%, 88%, 1);
+
+/* SCSS RGB */
+$prussian-blue: rgba(0, 48, 73, 1);
+$maximum-red: rgba(214, 40, 40, 1);
+$orange: rgba(247, 127, 0, 1);
+$maximum-yellow-red: rgba(252, 191, 73, 1);
+$mantis: rgba(140, 216, 103, 1);
+$emerald: rgba(47, 191, 113, 1);
+$bottle-green: rgba(11, 110, 79, 1);
+$gainsboro: rgba(224, 224, 226, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #8cd867ff, #2fbf71ff, #0b6e4fff, #e0e0e2ff);
+$gradient-right: linear-gradient(90deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #8cd867ff, #2fbf71ff, #0b6e4fff, #e0e0e2ff);
+$gradient-bottom: linear-gradient(180deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #8cd867ff, #2fbf71ff, #0b6e4fff, #e0e0e2ff);
+$gradient-left: linear-gradient(270deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #8cd867ff, #2fbf71ff, #0b6e4fff, #e0e0e2ff);
+$gradient-top-right: linear-gradient(45deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #8cd867ff, #2fbf71ff, #0b6e4fff, #e0e0e2ff);
+$gradient-bottom-right: linear-gradient(135deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #8cd867ff, #2fbf71ff, #0b6e4fff, #e0e0e2ff);
+$gradient-top-left: linear-gradient(225deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #8cd867ff, #2fbf71ff, #0b6e4fff, #e0e0e2ff);
+$gradient-bottom-left: linear-gradient(315deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #8cd867ff, #2fbf71ff, #0b6e4fff, #e0e0e2ff);
+$gradient-radial: radial-gradient(#003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #8cd867ff, #2fbf71ff, #0b6e4fff, #e0e0e2ff);
+
+
+$primary: $prussian-blue;
+$secondary: $maximum-red;
+$success: $bottle-green;
+$warning: $orange;
+$info: $maximum-yellow-red;
+$light: $gainsboro;
