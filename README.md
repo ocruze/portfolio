@@ -1,24 +1,3 @@
 # portfolio
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![build](https://github.com/ocruze/portfolio/workflows/build/badge.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/902b769f-f1cf-429a-82fc-24df4634f8fa/deploy-status)](https://app.netlify.com/sites/arnest-cruze/deploys)

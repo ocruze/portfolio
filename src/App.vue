@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="container mt-4 rounded">
+  <div id="app" class="container rounded">
     <b-navbar toggleable="lg">
       <b-navbar-brand to="/">
         <b-avatar text="A"></b-avatar>&nbsp;Orka
@@ -22,11 +22,11 @@
 
 <style lang="scss">
 #app {
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  height: 800px;
+  height: 100%;
   background-color: whitesmoke;
 }
 
@@ -35,6 +35,14 @@ router-link-exact-active {
 }
 
 body {
-  background-image: url("assets/background.jpg");
+  height: 100vh;
+  padding: 1.5em 0.8em;
+
+  background: rgb(48, 73, 255);
+  background: linear-gradient(
+    153deg,
+    rgba(48, 73, 255, 1) 16%,
+    rgba(193, 71, 71, 1) 95%
+  );
 }
 </style>
