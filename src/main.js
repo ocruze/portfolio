@@ -1,19 +1,25 @@
-import Vue from 'vue'
+import Vuetify from "vuetify";
+import "vuetify/dist/vuetify.min.css";
+import DefaultLayout from "~/layouts/Default.vue";
 
-import { BootstrapVue } from 'bootstrap-vue'
+export default function(Vue, { appOptions, head }) {
+  head.link.push({
+    rel: "stylesheet",
+    href:
+      "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
+  });
 
-import App from './App.vue'
-import router from './router'
-import store from './store'
+  head.link.push({
+    rel: "stylesheet",
+    href:
+      "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900",
+  });
 
-import './assets/scss/main.scss'
+  const opts = {}; //opts includes, vuetify themes, icons, etc.
+  Vue.use(Vuetify);
 
-Vue.use(BootstrapVue)
+  appOptions.vuetify = new Vuetify(opts);
 
-Vue.config.productionTip = false
-
-new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app')
+  // Set default layout as a global component
+  Vue.component("Layout", DefaultLayout);
+}
