@@ -1,25 +1,27 @@
 <template>
   <Layout>
-    <section>
-      <v-container>
-        <v-row>
-          <v-col sm="6">
-            <g-image alt="hero image" src="~/assets/avatar.jpg" width="424px" />
-          </v-col>
-          <v-col sm="6">
-            <h1>Hi, I'm Arnest</h1>
-            <p>I'm an IT Student and Junior Developer...</p>
-          </v-col>
-        </v-row>
-      </v-container>
-    </section>
+    <About />
+    <Projects />
+    <Education />
+    <Contact />
   </Layout>
 </template>
 
 <script>
+import About from "~/components/views/About";
+import Education from "~/components/views/Education";
+import Projects from "~/components/views/Projects";
+import Contact from "~/components/views/Contact";
+
 export default {
   metaInfo: {
     title: "Orka Arnest Cruze",
+  },
+  components: {
+    About,
+    Education,
+    Projects,
+    Contact,
   },
 };
 </script>
