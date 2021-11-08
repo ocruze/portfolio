@@ -1,0 +1,21 @@
+/* Custom variables */
+$blue: #1266f1;
+$green: #00b74a;
+$red: #f93154;
+$cyan: #39c0ed;
+$yellow: #ffa900;
+$light: #fbfbfb;
+$dark: #262626;
+/* Custom variables */
+
+/* Import bootstrap functions and variables */
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+/* Import bootstrap functions and variables */
+
+/* Merge theme colors (optional) */
+
+/* Merge theme colors (optional) */
+
+/* Import base bootstrap */
+@import "../../../node_modules/bootstrap/scss/bootstrap";
