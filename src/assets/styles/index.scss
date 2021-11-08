@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* CSS Reset */
+@import "./css_reset.css";
+/* CSS Reset */
+
+/* Bootstrap 5 */
+@import "./bootstrap.scss";
+/* Bootstrap 5 */
+
+/* Fonts */
+@import "./../fonts/fonts.scss";
+/* Fonts */
+
+/* Custom extra colors */
+$lightblue: #7fa3fa;
+/* Custom extra colors */
+
+.bg-lightblue {
+  background-color: $lightblue;
+}
