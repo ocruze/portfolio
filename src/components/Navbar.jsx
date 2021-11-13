@@ -8,13 +8,13 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-md m-3">
         <div className="container-xl">
-          <a
+          <Link
+            to="/"
             className="navbar-brand ff-poppins fs-2 fw-bold text-dark"
-            href="#"
           >
             <FontAwesomeIcon icon={fas.faSquare} className="text-primary" />
             &nbsp;Orka Arnest Cruze.
-          </a>
+          </Link>
 
           <button
             className="navbar-toggler"

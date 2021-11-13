@@ -9,17 +9,19 @@ import Resume from "./pages/Resume";
 
 const App = () => {
   return (
-    <main className="container p-0">
-      <BrowserRouter>
-        <Navbar />
+    <BrowserRouter>
+      <Navbar />
+
+      <main className="container-xl">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
-        <Footer />
-      </BrowserRouter>
-    </main>
+      </main>
+
+      <Footer />
+    </BrowserRouter>
   );
 };
 
