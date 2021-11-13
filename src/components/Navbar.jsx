@@ -1,15 +1,9 @@
 import React from "react";
 import * as fas from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const routes = [
-    {
-      name: "",
-      url: "",
-    },
-  ];
-
   return (
     <>
       <nav className="navbar navbar-expand-md m-3">
@@ -19,8 +13,7 @@ const Navbar = () => {
             href="#"
           >
             <FontAwesomeIcon icon={fas.faSquare} className="text-primary" />
-            &nbsp;Orka Arnest Cruze <span className="fw-normal">/</span>
-            <span className="fw-normal fst-italic fs-4">Junior Developer</span>
+            &nbsp;Orka Arnest Cruze.
           </a>
 
           <button
@@ -32,19 +25,19 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i className="fas fa-bars"></i>
+            <FontAwesomeIcon icon={fas.faBars} />
           </button>
           <div className="collapse navbar-collapse" id="navmenu">
             <div className="navbar-nav ms-auto">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link className="nav-link" to="/">
                 Home
-              </a>
-              <a className="nav-link" href="#">
+              </Link>
+              <Link className="nav-link" to="/resume">
                 Resume
-              </a>
-              <a className="nav-link" href="#">
+              </Link>
+              <Link className="nav-link" to="/projects">
                 Projects
-              </a>
+              </Link>
             </div>
           </div>
         </div>
