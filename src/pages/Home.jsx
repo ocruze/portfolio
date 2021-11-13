@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="container">
+    <>
       <div className="row justify-content-center">
-        <div className="col-md col-xl-4 hero-card">
+        <div className="col-md-4 col-xl-4 hero-card">
           <div className="row bg-lightblue justify-content-center text-center">
             <img
               src="https://picsum.photos/300/300"
@@ -34,7 +34,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="col-md col-xl-4 p-5 py-4">
+        <div className="col-md col-xl-6 p-5 py-4">
           <h1 className="ff-poppins fa-6x fw-bold">Hello</h1>
           <h2 className="ff-poppins fs-4 mb-5">Here's who I am & what I do</h2>
 
@@ -64,7 +64,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
