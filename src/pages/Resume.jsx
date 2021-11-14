@@ -4,6 +4,8 @@ import EducationCard from "../components/Cards/EducationCard";
 
 import experience from "./../data/experience.json";
 import education from "./../data/education.json";
+import skills from "./../data/skills.json";
+import SkillsetSection from "../components/SkillsetSection";
 
 const Resume = () => {
   return (
@@ -29,6 +31,14 @@ const Resume = () => {
           {education.map((edu, index) => (
             <EducationCard key={index} {...edu} />
           ))}
+        </section>
+      </div>
+
+      <div className="row">
+        <section>
+          <h2 className="ff-poppins text-center">Skillset</h2>
+
+          <SkillsetSection skills={skills} />
         </section>
       </div>
     </>

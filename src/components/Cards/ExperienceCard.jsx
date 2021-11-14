@@ -13,7 +13,10 @@ const ExperienceCard = (props) => {
           <p className="fw-bold">{props.job_title}</p>
           <p>{props.employer}</p>
           <p>
-            <FontAwesomeIcon icon={fas.faMapMarkerAlt} />
+            <FontAwesomeIcon
+              icon={fas.faMapMarkerAlt}
+              className="text-success"
+            />
             &nbsp;
             {props.employer_location}
           </p>

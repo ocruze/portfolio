@@ -1,0 +1,17 @@
+{
+  "software_development": ["Java (spring, hibernate)", "C", "Python", "Bash"],
+  "web_development": [
+    "HTML",
+    "CSS (Bootstrap, vuetifyjs)",
+    "JavaScript (react, vue.js)",
+    "PHP (Symfony)"
+  ],
+  "database_administration": ["SQL (PostgreSQL, MySQL, SQLite)"],
+  "dev_tools": ["Git", "Docker", "CI (CircleCI, Travis CI)", "Trello"],
+  "computer_networking": ["IPv4 & IPv6", "Routing", "DNS", "NFS", "DHCP"],
+  "languages": [
+    "English (fluent, TOEIC : 990)",
+    "French (fluent)",
+    "Bengali (native)"
+  ]
+}
