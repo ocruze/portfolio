@@ -6,9 +6,12 @@ help:
 
 .PHONY: dist
 dist: ## Build the website for production
-	npm --loglevel=warn run build
+	rm -rf dist
+	yarn --loglevel=warn install
+	yarn --loglevel=warn run build
 
 .PHONY: d-dist
 d-dist: ## Build the website for production with docker container
-	docker run -it -v $(PWD):/app -w /app node:14 npm --loglevel=warn run build
+	rm -rf dist
+	docker run -it -u $(id -u ${USER}):$(id -g ${USER}) -v $(PWD):/app -w /app node:14 yarn --loglevel=warn install && yarn --loglevel=warn run build
 
