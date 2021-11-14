@@ -1,10 +1,37 @@
 import React from "react";
+import ExperienceCard from "../components/Cards/ExperienceCard";
+import EducationCard from "../components/Cards/EducationCard";
+
+import experience from "./../data/experience.json";
+import education from "./../data/education.json";
 
 const Resume = () => {
   return (
-    <div className="">
-      <h1>Resume</h1>
-    </div>
+    <>
+      <div className="row px-4">
+        <h1 className="ff-poppins fw-bold">Resume</h1>
+      </div>
+
+      <div className="row">
+        <section>
+          <h2 className="ff-poppins text-center">Experience</h2>
+
+          {experience.map((exp, index) => (
+            <ExperienceCard key={index} {...exp} />
+          ))}
+        </section>
+      </div>
+
+      <div className="row">
+        <section>
+          <h2 className="ff-poppins text-center">Education</h2>
+
+          {education.map((edu, index) => (
+            <EducationCard key={index} {...edu} />
+          ))}
+        </section>
+      </div>
+    </>
   );
 };
 
