@@ -13,7 +13,10 @@ const EducationCard = (props) => {
           <p className="fw-bold">{props.degree}</p>
           <p>{props.school}</p>
           <p>
-            <FontAwesomeIcon icon={fas.faMapMarkerAlt} />
+            <FontAwesomeIcon
+              icon={fas.faMapMarkerAlt}
+              className="text-success"
+            />
             &nbsp;
             {props.school_location}
           </p>
