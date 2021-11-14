@@ -30,4 +30,4 @@ jobs:
 
       - name: Deploy with rsync
         run: |
-          rsync -avz --delete ./dist ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/arnest/www/portfolio/dist/
+          rsync -avz --delete ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/arnest/www/portfolio/dist
