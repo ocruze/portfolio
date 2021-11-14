@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <div className="container-xl">
       <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p className="col-md-4 mb-0 text-muted">© Orka Arnest Cruze</p>
+        <p className=" mb-0 text-muted">© Orka Arnest Cruze</p>
 
-        <ul className="nav col-md-4 justify-content-end ff-poppins">
+        <ul className="nav justify-content-end ff-poppins">
           <li className="nav-item text-center">
             <p className="fw-bold">Call me</p>
             <a
