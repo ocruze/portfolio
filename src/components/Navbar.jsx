@@ -1,7 +1,7 @@
 import React from "react";
-import * as fas from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
+import { faBars, faSquare } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
@@ -12,7 +12,7 @@ const Navbar = () => {
             to="/"
             className="navbar-brand ff-poppins fs-2 fw-bold text-dark"
           >
-            <FontAwesomeIcon icon={fas.faSquare} className="text-primary" />
+            <FontAwesomeIcon icon={faSquare} className="text-primary" />
             &nbsp;Orka Arnest Cruze.
           </Link>
 
@@ -25,7 +25,7 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <FontAwesomeIcon icon={fas.faBars} />
+            <FontAwesomeIcon icon={faBars} />
           </button>
           <div className="collapse navbar-collapse" id="navmenu">
             <div className="navbar-nav ms-auto">

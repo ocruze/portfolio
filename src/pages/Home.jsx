@@ -1,4 +1,4 @@
-import * as fab from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
@@ -22,13 +22,13 @@ const Home = () => {
               href="https://www.linkedin.com/in/o-a-cruze"
               className="btn btn-link link-dark me-3"
             >
-              <FontAwesomeIcon icon={fab.faLinkedinIn} className="fs-3" />
+              <FontAwesomeIcon icon={faLinkedinIn} className="fs-3" />
             </a>
             <a
               href="https://github.com/ocruze"
               className="btn btn-link link-dark"
             >
-              <FontAwesomeIcon icon={fab.faGithub} className="fs-3" />
+              <FontAwesomeIcon icon={faGithub} className="fs-3" />
             </a>
           </div>
         </div>

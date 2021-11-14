@@ -1,11 +1,16 @@
 [
   {
-    "title": "Sudoku",
+    "title": "Portfolio website",
     "source_code_url": "https://github.com/ocruze/portfolio",
+    "short_desc": "This portfolio website",
+    "preview_image_url": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
+    "tags": ["react"]
+  },
+  {
+    "title": "Sudoku",
     "short_desc": "Console-based Sudoku game",
     "long_desc": "This is a Sudoku game with a random grid generator with 3 difficulty levels. This was my very first project in Java programming. Not having learnt graphical interfaces in Java at this point, I made the entire game in CLI.",
-    "live_url": "#",
     "preview_image_url": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
-    "tags": ["Java"]
+    "tags": ["Java", "Java"]
   }
 ]

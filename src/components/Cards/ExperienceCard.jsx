@@ -1,4 +1,4 @@
-import * as fas from "@fortawesome/free-solid-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
@@ -13,10 +13,7 @@ const ExperienceCard = (props) => {
           <p className="fw-bold">{props.job_title}</p>
           <p>{props.employer}</p>
           <p>
-            <FontAwesomeIcon
-              icon={fas.faMapMarkerAlt}
-              className="text-success"
-            />
+            <FontAwesomeIcon icon={faMapMarkerAlt} className="text-success" />
             &nbsp;
             {props.employer_location}
           </p>

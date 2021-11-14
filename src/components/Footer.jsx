@@ -1,4 +1,4 @@
-import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
@@ -33,13 +33,13 @@ const Footer = () => {
               href="https://www.linkedin.com/in/o-a-cruze"
               className="btn btn-link link-dark px-1"
             >
-              <FontAwesomeIcon icon={fab.faLinkedinIn} />
+              <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
             <a
               href="https://github.com/ocruze"
               className="btn btn-link link-dark px-1"
             >
-              <FontAwesomeIcon icon={fab.faGithub} />
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
         </ul>

@@ -1,4 +1,4 @@
-import * as fas from "@fortawesome/free-solid-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
@@ -13,10 +13,7 @@ const EducationCard = (props) => {
           <p className="fw-bold">{props.degree}</p>
           <p>{props.school}</p>
           <p>
-            <FontAwesomeIcon
-              icon={fas.faMapMarkerAlt}
-              className="text-success"
-            />
+            <FontAwesomeIcon icon={faMapMarkerAlt} className="text-success" />
             &nbsp;
             {props.school_location}
           </p>
