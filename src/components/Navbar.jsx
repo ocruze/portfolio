@@ -10,14 +10,14 @@ const Navbar = () => {
         <div className="container-xl">
           <Link
             to="/"
-            className="navbar-brand ff-poppins fs-2 fw-bold text-dark m-0"
+            className="navbar-brand ff-poppins fs-2 fw-bold text-dark"
           >
             <FontAwesomeIcon icon={faSquare} className="text-primary" />
             &nbsp;Orka Arnest Cruze.
           </Link>
 
           <button
-            className="navbar-toggler m-0"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navmenu"

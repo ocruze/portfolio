@@ -97,7 +97,6 @@ const ProjectCard = (props) => {
               loop={true}
               controls={true}
               pip={false}
-              playing={true}
             />
           ) : (
             ""
