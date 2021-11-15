@@ -12,9 +12,7 @@ const SkillsetSection = ({ skills }) => {
           {
             <ul>
               {skills.software_development.map((tech, index) => (
-                <li key={index}>
-                  <span className="fw-bold">-</span> {tech}
-                </li>
+                <li key={index}>{tech}</li>
               ))}
             </ul>
           }
@@ -32,9 +30,7 @@ const SkillsetSection = ({ skills }) => {
           {
             <ul>
               {skills.web_development.map((tech, index) => (
-                <li key={index}>
-                  <span className="fw-bold">-</span> {tech}
-                </li>
+                <li key={index}>{tech}</li>
               ))}
             </ul>
           }
@@ -52,9 +48,7 @@ const SkillsetSection = ({ skills }) => {
           {
             <ul>
               {skills.database_administration.map((tech, index) => (
-                <li key={index}>
-                  <span className="fw-bold">-</span> {tech}
-                </li>
+                <li key={index}>{tech}</li>
               ))}
             </ul>
           }
@@ -72,9 +66,7 @@ const SkillsetSection = ({ skills }) => {
           {
             <ul>
               {skills.dev_tools.map((tech, index) => (
-                <li key={index}>
-                  <span className="fw-bold">-</span> {tech}
-                </li>
+                <li key={index}>{tech}</li>
               ))}
             </ul>
           }
@@ -92,9 +84,7 @@ const SkillsetSection = ({ skills }) => {
           {
             <ul>
               {skills.computer_networking.map((tech, index) => (
-                <li key={index}>
-                  <span className="fw-bold">-</span> {tech}
-                </li>
+                <li key={index}>{tech}</li>
               ))}
             </ul>
           }
@@ -112,9 +102,7 @@ const SkillsetSection = ({ skills }) => {
           {
             <ul>
               {skills.languages.map((language, index) => (
-                <li key={index}>
-                  <span className="fw-bold">-</span> {language}
-                </li>
+                <li key={index}>{language}</li>
               ))}
             </ul>
           }

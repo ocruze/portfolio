@@ -22,9 +22,7 @@ const EducationCard = (props) => {
           {
             <ul>
               {props.course_details.map((item, index) => (
-                <li key={index}>
-                  <span className="fw-bold">-</span> {item}
-                </li>
+                <li key={index}>{item}</li>
               ))}
             </ul>
           }

@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Footer from "./components/Footer";
 
 import Navbar from "./components/Navbar";
@@ -9,7 +9,7 @@ import Resume from "./pages/Resume";
 
 const App = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Navbar />
 
       <main className="container-xl">
@@ -21,14 +21,16 @@ const App = () => {
             path="*"
             element={
               <>
-                <h2>Oops, seems like you've got lost</h2>
-                <p className="fs-5">
-                  Lemme take you back{" "}
-                  <Link to="/" className="">
-                    home
-                  </Link>
-                  .
-                </p>
+                <div className="container text-center">
+                  <h2>Oops, seems like you've got lost</h2>
+                  <p className="fs-5">
+                    Lemme take you back{" "}
+                    <Link to="/" className="">
+                      home
+                    </Link>
+                    .
+                  </p>
+                </div>
               </>
             }
           />
@@ -36,7 +38,7 @@ const App = () => {
       </main>
 
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 

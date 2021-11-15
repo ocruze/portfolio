@@ -8,7 +8,7 @@ const ExperienceCard = (props) => {
       <div className="row">
         <div className="col-lg-4">
           <p className="fw-bold fs-5 text-primary">
-            {props.start} - {props.end || "Présent"}
+            {props.start} - {props.end || "Present"}
           </p>
           <p className="fw-bold">{props.job_title}</p>
           <p>{props.employer}</p>
@@ -22,9 +22,7 @@ const ExperienceCard = (props) => {
           {
             <ul>
               {props.tasks.map((task, index) => (
-                <li key={index}>
-                  <span className="fw-bold">-</span> {task}
-                </li>
+                <li key={index}>{task}</li>
               ))}
             </ul>
           }

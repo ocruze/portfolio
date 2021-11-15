@@ -2,15 +2,47 @@
   {
     "title": "Portfolio website",
     "source_code_url": "https://github.com/ocruze/portfolio",
+    "live_url": "https://portfolio.arnestcruze.com",
     "short_desc": "This portfolio website",
-    "preview_image_url": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
-    "tags": ["react"]
+    "preview_image_url": "https://i.imgur.com/TSleSD1.png",
+    "tags": ["react", "HTML", "CSS"]
+  },
+  {
+    "title": "AR visiting card",
+    "source_code_url": "https://github.com/ocruze/visiting-card/",
+    "short_desc": "",
+    "long_desc": "My team at ESIEA and I made a mobile application of a visiting card in augmented reality (AR).",
+    "preview_video_yt_url": "https://www.youtube.com/watch?v=9TJZaYUpbS0",
+    "tags": ["Unity Engine", "C#"]
+  },
+  {
+    "title": "Doodle",
+    "source_code_url": "https://github.com/ocruze/doodle",
+    "short_desc": "",
+    "long_desc": "For a school project at ESIEA, my team and I have made a survey website that helps in organising group events. The frontend of the website created in vue.js uses an in-house API developped in Java (spring, hibernate).",
+    "preview_image_url": "https://i.imgur.com/eL88SBv.jpg",
+    "tags": ["Java (springboot)", "vue.js", "HTML", "CSS"]
+  },
+  {
+    "title": "mamanjaipasratelavion",
+    "source_code_url": "https://github.com/ocruze/mamanjaipasratelavion/",
+    "short_desc": "",
+    "long_desc": "This is the very first dynamic website that my group and I made with a PHP backend and a MySQL database as a project whilst in DUT. This is a crowdsourced platform that collects and shares all sorts of information about airports, and informs people about lesser-known information about airports to avoid any unexpected problems.",
+    "preview_image_url": "https://i.imgur.com/T6PL4Zl.gif",
+    "tags": ["HTML", "CSS", "PHP", "JavaScript", "MySQL"]
+  },
+  {
+    "title": "YouQuest (zelda-like game)",
+    "short_desc": "",
+    "long_desc": "This is a Zelda-like game that my college teammates and I made entirely in Java and JavaFx. The game contains 2 levels each with a distinct map, rendered from tilemaps that I designed myself. During this first project, I was able to clearly understand the MVC architecture.",
+    "preview_image_url": "https://i.imgur.com/6PQIyqV.jpg",
+    "tags": ["Java", "JavaFx"]
   },
   {
     "title": "Sudoku",
     "short_desc": "Console-based Sudoku game",
-    "long_desc": "This is a Sudoku game with a random grid generator with 3 difficulty levels. This was my very first project in Java programming. Not having learnt graphical interfaces in Java at this point, I made the entire game in CLI.",
-    "preview_image_url": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
-    "tags": ["Java", "Java"]
+    "long_desc": "This is a console-based Sudoku game with a random grid generator with 3 difficulty levels. This was my very first college project in Java programming. Not having learnt graphical interfaces in Java at this point yet, I made the entire game in CLI. I scored 17/20 on this project. I was super happy and this is when I fell in love with programming.",
+    "preview_image_url": "https://i.imgur.com/FWj0o5o.jpg",
+    "tags": ["Java"]
   }
 ]

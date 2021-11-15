@@ -2,6 +2,7 @@ import { faGit, faGithub, faGitlab } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import ReactPlayer from "react-player";
 
 const ProjectCard = (props) => {
   const getGitIcon = (url) => {
@@ -21,7 +22,7 @@ const ProjectCard = (props) => {
   return (
     <div className="box-shadow rounded m-4 p-0">
       <div className="row">
-        <div className="col-md-8 p-3 px-4">
+        <div className="col-md col-lg-8 p-4 px-5">
           <div className="row">
             <p className="fw-bold fs-5 text-primary">{props.title}</p>
           </div>
@@ -39,7 +40,7 @@ const ProjectCard = (props) => {
               {props.source_code_url ? (
                 <a
                   href={props.source_code_url}
-                  className="btn btn-dark me-3"
+                  className="btn btn-dark mt-2 me-3"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -52,7 +53,7 @@ const ProjectCard = (props) => {
               {props.live_url ? (
                 <a
                   href={props.live_url}
-                  className="btn btn-dark"
+                  className="btn btn-dark mt-2"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -65,12 +66,12 @@ const ProjectCard = (props) => {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row mt-3">
             <div className="col">
               {props.tags.map((tag, index) => (
                 <span
                   key={index}
-                  className="badge rounded-pill bg-success me-2"
+                  className="badge rounded-pill bg-success p-2 me-2"
                 >
                   {tag}
                 </span>
@@ -79,9 +80,25 @@ const ProjectCard = (props) => {
           </div>
         </div>
 
-        <div className="col-md-4 d-flex align-items-center">
+        <div className="col-md col-lg-4 d-flex align-items-center justify-content-center justify-content-md-end">
           {props.preview_image_url ? (
-            <img src={props.preview_image_url} alt="" className="img-fluid" />
+            <img
+              src={props.preview_image_url}
+              alt="preview image"
+              className="img-fluid"
+            />
+          ) : (
+            ""
+          )}
+
+          {props.preview_video_yt_url ? (
+            <ReactPlayer
+              url={props.preview_video_yt_url}
+              loop={true}
+              controls={true}
+              pip={false}
+              playing={true}
+            />
           ) : (
             ""
           )}
