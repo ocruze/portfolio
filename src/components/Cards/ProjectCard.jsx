@@ -71,7 +71,7 @@ const ProjectCard = (props) => {
               {props.tags.map((tag, index) => (
                 <span
                   key={index}
-                  className="badge rounded-pill bg-success p-2 me-2"
+                  className="badge rounded-pill bg-success p-2 me-2 mt-2"
                 >
                   {tag}
                 </span>
