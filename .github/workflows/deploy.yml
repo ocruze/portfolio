@@ -15,4 +15,7 @@ jobs:
 
     steps:
       - name: Pinging deploy api
-        run: curl --request GET --url ${{ secrets.API_ROUTE }} --header "X-Token: ${{ secrets.X_TOKEN }}"
+        run: |
+          curl --request GET \
+            --url ${{ secrets.API_ROUTE }} \
+            --header 'X-Token:  ${{ secrets.X_TOKEN }}'
