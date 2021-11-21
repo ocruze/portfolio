@@ -1,20 +1,24 @@
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { HashRouter, Routes, Route, Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { HashRouter, Link, Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 const Home = React.lazy(() => import("./pages/Home"));
 const Projects = React.lazy(() => import("./pages/Projects"));
 const Resume = React.lazy(() => import("./pages/Resume"));
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-
 const App = () => {
+  const { t } = useTranslation();
+
   return (
     <React.Suspense
       fallback={
         <main className="container text-center align-items-center">
           <div className="row px-4">
-            <h1 className="ff-poppins fw-bold">Loading...</h1>
+            <h1 className="ff-poppins fw-bold">{t("global.loading")}</h1>
           </div>
         </main>
       }
@@ -32,13 +36,12 @@ const App = () => {
               element={
                 <>
                   <div className="container text-center">
-                    <h2>Oops, seems like you've got lost</h2>
+                    <h2>{t("pages.not_found.heading")}</h2>
                     <p className="fs-5">
-                      Lemme take you back{" "}
-                      <Link to="/" className="">
-                        home
+                      <Link to="/" className="btn btn-primary py-2">
+                        <FontAwesomeIcon icon={faHome} />
+                        &nbsp;{t("pages.not_found.homepage_link_text")}
                       </Link>
-                      .
                     </p>
                   </div>
                 </>

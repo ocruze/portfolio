@@ -1,0 +1,40 @@
+{
+  "global": {
+    "loading": "Chargement..."
+  },
+  "my_info": {
+    "full_name": "Orka Arnest CRUZE",
+    "job_title": "Développeur Junior"
+  },
+  "navbar": {
+    "action_texts": {
+      "home": "Accueil",
+      "resume": "CV",
+      "projects": "Projets",
+      "change_language": "Changer de langue"
+    }
+  },
+  "footer": {
+    "action_labels": {
+      "call_me": "M'appeler",
+      "email_me": "M'écrire",
+      "follow_me": "Me suivre"
+    }
+  },
+  "pages": {
+    "not_found": {
+      "heading": "Oups, il semblerait que vous soyez perdu",
+      "homepage_link_text": "Revenez à la page d'accueil"
+    },
+    "home": {
+      "hello": "Bonjour",
+      "about_me_heading": "A propos de moi",
+      "link_texts": {
+        "resume": "CV",
+        "projects": "Projets"
+      },
+      "lead_text": "Je suis étudiant à l'école d'ingénieurs ESIEA et apprenti développeur à l'IGN.",
+      "sublead_text": "J'ai commencé mon parcours dans la programmation il y a un peu plus de 4 ans et je suis devenu passionné par la discipline. Bien que j'aie commencé avec des technos natives telles que Java ou Python, j'ai récemment trouvé un nouvel intérêt dans le monde du web. Actuellement, je m'apprends à utiliser des outils JavaScript comme vue.js ou react."
+    }
+  }
+}

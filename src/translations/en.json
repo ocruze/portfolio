@@ -1,0 +1,40 @@
+{
+  "global": {
+    "loading": "Loading..."
+  },
+  "my_info": {
+    "full_name": "Orka Arnest Cruze",
+    "job_title": "Junior Developer"
+  },
+  "navbar": {
+    "action_texts": {
+      "home": "Home",
+      "resume": "Resume",
+      "projects": "Projects",
+      "change_language": "Change language"
+    }
+  },
+  "footer": {
+    "action_labels": {
+      "call_me": "Call me",
+      "email_me": "Email me",
+      "follow_me": "Follow me"
+    }
+  },
+  "pages": {
+    "not_found": {
+      "heading": "Oops, seems like you've got lost",
+      "homepage_link_text": "Go back to the homepage"
+    },
+    "home": {
+      "hello": "Hello",
+      "about_me_heading": "Here's who I am & what I do",
+      "link_texts": {
+        "resume": "Resume",
+        "projects": "Projects"
+      },
+      "lead_text": "I'm studying IT at the engineering school ESIEA and I'm an apprentice developer at IGN.",
+      "sublead_text": "I've started my journey in programming about 4 years ago and I was hooked ever since. Even though I have started with native technologies such as Java or Python, I've got a new-found interest in web development. Currently, I'm teaching myself Javascript technologies like vue.js or react."
+    }
+  }
+}

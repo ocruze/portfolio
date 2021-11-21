@@ -1,21 +1,24 @@
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer>
       <div className="container-xl ff-poppins py-3 my-4 border-top">
         <div className="row">
           <div className="col-md-4 d-flex align-items-center justify-content-center justify-content-md-start">
             <p className="text-muted">
-              © {new Date().getFullYear()} Orka Arnest Cruze
+              © {new Date().getFullYear()} {t("my_info.full_name")}
             </p>
           </div>
 
           <div className="col-md-8 row row-cols-1 row-cols-sm-auto justify-content-center justify-content-md-end">
             <div className="col text-center">
-              <p className="fw-bold">Call me</p>
+              <p className="fw-bold">{t("footer.action_labels.call_me")}</p>
               <a
                 href="tel:0033618765806"
                 className="btn btn-link text-decoration-none text-black"
@@ -25,7 +28,7 @@ const Footer = () => {
             </div>
 
             <div className="col text-center">
-              <p className="fw-bold">Email me</p>
+              <p className="fw-bold">{t("footer.action_labels.email_me")}</p>
               <a
                 href="mailto:o.cruze@live.com"
                 className="btn btn-link text-decoration-none text-black"
@@ -34,7 +37,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="col text-center">
-              <p className="fw-bold">Follow me</p>
+              <p className="fw-bold">{t("footer.action_labels.follow_me")}</p>
               <a
                 href="https://www.linkedin.com/in/o-a-cruze"
                 className="btn btn-link link-dark px-1"

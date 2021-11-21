@@ -1,9 +1,22 @@
-import React from "react";
+import { faBars, faGlobe, faSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { faBars, faSquare } from "@fortawesome/free-solid-svg-icons";
+import i18n from "../i18n";
+
+const languages = {
+  en: "English",
+  fr: "Français",
+};
 
 const Navbar = () => {
+  const { t } = useTranslation();
+
+  const [currentLanguage, setCurrentLanguage] = useState(
+    i18n.resolvedLanguage || "en"
+  );
+
   return (
     <>
       <nav className="navbar navbar-expand-md m-3">
@@ -13,7 +26,7 @@ const Navbar = () => {
             className="navbar-brand ff-poppins fs-2 fw-bold text-dark"
           >
             <FontAwesomeIcon icon={faSquare} className="text-primary" />
-            &nbsp;Orka Arnest Cruze.
+            &nbsp;{t("my_info.full_name")}.
           </Link>
 
           <button
@@ -30,14 +43,55 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navmenu">
             <div className="navbar-nav ms-auto">
               <Link className="nav-link" to="/">
-                Home
+                {t("navbar.action_texts.home")}
               </Link>
               <Link className="nav-link" to="/resume">
-                Resume
+                {t("navbar.action_texts.resume")}
               </Link>
               <Link className="nav-link" to="/projects">
-                Projects
+                {t("navbar.action_texts.projects")}
               </Link>
+            </div>
+
+            <div className="dropdown">
+              <button
+                className="btn btn-link link-primary dropdown-toggle"
+                type="button"
+                id="language-selector"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                title={t("navbar.action_texts.change_language")}
+              >
+                <FontAwesomeIcon icon={faGlobe} />
+              </button>
+              <ul
+                className="dropdown-menu dropdown-menu-md-end"
+                aria-labelledby="language-selector"
+              >
+                <li>
+                  <h6 class="dropdown-header">
+                    {t("navbar.action_texts.change_language")}
+                  </h6>
+                </li>
+                {Object.keys(languages).map((lang) => (
+                  <li>
+                    <button
+                      className={
+                        "dropdown-item" +
+                        (lang == currentLanguage ? " active" : "")
+                      }
+                      type="button"
+                      aria-current={lang == currentLanguage ? "true" : "false"}
+                      onClick={() => {
+                        setCurrentLanguage(lang);
+                        i18n.changeLanguage(lang);
+                      }}
+                    >
+                      {languages[lang]}
+                    </button>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
