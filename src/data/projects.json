@@ -9,7 +9,7 @@
   },
   {
     "title": "AR visiting card",
-    "source_code_url": "https://github.com/ocruze/visiting-card/",
+    "source_code_url": "https://github.com/ocruze/visiting-card",
     "short_desc": "",
     "long_desc": "My team at ESIEA and I made a mobile application of a visiting card in augmented reality (AR).",
     "preview_video_yt_url": "https://www.youtube.com/watch?v=9TJZaYUpbS0",
@@ -25,7 +25,7 @@
   },
   {
     "title": "mamanjaipasratelavion",
-    "source_code_url": "https://github.com/ocruze/mamanjaipasratelavion/",
+    "source_code_url": "https://github.com/ocruze/mamanjaipasratelavion",
     "short_desc": "",
     "long_desc": "This is the very first dynamic website that my group and I made with a PHP backend and a MySQL database as a project whilst in DUT. This is a crowdsourced platform that collects and shares all sorts of information about airports, and informs people about lesser-known information about airports to avoid any unexpected problems.",
     "preview_image_url": "https://i.imgur.com/T6PL4Zl.gif",
@@ -40,6 +40,7 @@
   },
   {
     "title": "Sudoku",
+    "source_code_url": "https://github.com/ocruze/sudoku",
     "short_desc": "Console-based Sudoku game",
     "long_desc": "This is a console-based Sudoku game with a random grid generator with 3 difficulty levels. This was my very first college project in Java programming. Not having learnt graphical interfaces in Java at this point yet, I made the entire game in CLI. I scored 17/20 on this project. I was super happy and this is when I fell in love with programming.",
     "preview_image_url": "https://i.imgur.com/FWj0o5o.jpg",
