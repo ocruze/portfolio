@@ -60,7 +60,28 @@
       },
       "education": {
         "diplome_ingenieur_esiea": {
-          "degree": "ESIEA Engineering Degree (CTI)"
+          "degree": "ESIEA Engineering Degree (CTI)",
+          "course_details": {
+            "1": "Algorithmic, computability et complexity",
+            "2": "Object oriented programming",
+            "3": "Databases",
+            "4": "Cybersecurity",
+            "5": "Data analysis"
+          }
+        },
+        "dut_informatique": {
+          "degree": "DUT Informatique",
+          "course_details": {
+            "1": "Algorithmic & object oriented programming",
+            "2": "Creating and administrating databases",
+            "3": "Web developement"
+          }
+        },
+        "bac_s": {
+          "degree": "A' Levels",
+          "course_details": {
+            "1": "Specialization: engineering science"
+          }
         }
       }
     }

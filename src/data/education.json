@@ -1,36 +1,26 @@
 [
   {
+    "slug": "diplome_ingenieur_esiea",
     "start": "2019",
     "end": "2022",
     "school": "ESIEA",
-    "degree": "CTI Engineering Degree",
     "school_location": "Ivry-sur-Seine",
-    "course_details": [
-      "Algorithmic, computability et complexity",
-      "Object oriented programming",
-      "Databases",
-      "Cybersecurity",
-      "Data analysis"
-    ]
+    "course_details_num": 5
   },
   {
+    "slug": "dut_informatique",
     "start": "2017",
     "end": "2019",
     "school": "IUT de Montreuil (Université Paris-8)",
-    "degree": "DUT Informatique",
     "school_location": "Montreuil",
-    "course_details": [
-      "Algorithmic & object oriented programming",
-      "Creating and administrating databases",
-      "Web developement"
-    ]
+    "course_details_num": 3
   },
   {
+    "slug": "bac_s",
     "start": "2014",
     "end": "2017",
     "school": "Lycée Marcel Cachin",
-    "degree": "A' Levels",
     "school_location": "Saint-Ouen",
-    "course_details": ["Specialization: engineering science"]
+    "course_details_num": 1
   }
 ]
