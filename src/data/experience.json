@@ -1,23 +1,19 @@
 [
   {
-    "job_title": "Junior Developer (Apprentice)",
+    "slug": "apprenti_ingenieur_ign",
     "employer": "Institut national de l'information Géographique et Forestière (IGNF)",
     "employer_location": "Saint-Mandé",
+    "employer_linkedin": "https://www.linkedin.com/company/ignfrance",
     "start": "2019",
-    "tasks": [
-      "Web and CLI applications",
-      "tech/tool stack : PHP/Symfony, Javascript, Python, Docker, CircleCI/Travis/Jenkins"
-    ]
+    "tasks_num": 2
   },
   {
-    "job_title": "VBA Developer & IT Technician (Apprentice)",
+    "slug": "apprenti_developpeur_tti",
     "employer": "Transport Tertiaire Industrie (TTI)",
     "employer_location": "Noise-le-Sec",
+    "employer_linkedin": "https://www.linkedin.com/company/transporttertiaireindustriel",
     "start": "2018",
     "end": "2019",
-    "tasks": [
-      "VBA applications for HR department",
-      "In-charge of IT department and inventory"
-    ]
+    "tasks_num": 2
   }
 ]

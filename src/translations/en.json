@@ -34,7 +34,35 @@
         "projects": "Projects"
       },
       "lead_text": "I'm studying IT at the engineering school ESIEA and I'm an apprentice developer at IGN.",
-      "sublead_text": "I've started my journey in programming about 4 years ago and I was hooked ever since. Even though I have started with native technologies such as Java or Python, I've got a new-found interest in web development. Currently, I'm teaching myself Javascript technologies like vue.js or react."
+      "sublead_text": "I've started my journey in programming about 4 years ago and I was hooked ever since. Even though I started with native technologies such as Java or Python, I've got a new-found interest in web development. I'm fairly proficient in the PHP/Symfony and Java/spring ecosystems. Currently, I'm teaching myself Javascript technologies like react and vue.js."
+    },
+    "resume": {
+      "title": "Resume",
+      "title_experience": "Experience",
+      "title_education": "Education",
+      "title_skillset": "Skillset",
+      "experience_present": "Present",
+      "experience": {
+        "apprenti_ingenieur_ign": {
+          "job_title": "Junior Developer (Apprentice)",
+          "tasks": {
+            "1": "Web and CLI applications",
+            "2": "tech/tool stack : PHP/Symfony, Javascript, Python, Docker, CircleCI/Travis/Jenkins"
+          }
+        },
+        "apprenti_developpeur_tti": {
+          "job_title": "VBA Developer & IT Technician (Apprentice)",
+          "tasks": {
+            "1": "VBA applications for HR department",
+            "2": "In-charge of IT department and inventory"
+          }
+        }
+      },
+      "education": {
+        "diplome_ingenieur_esiea": {
+          "degree": "ESIEA Engineering Degree (CTI)"
+        }
+      }
     }
   }
 }

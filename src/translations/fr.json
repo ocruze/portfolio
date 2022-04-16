@@ -34,7 +34,35 @@
         "projects": "Projets"
       },
       "lead_text": "Je suis étudiant à l'école d'ingénieurs ESIEA et apprenti développeur à l'IGN.",
-      "sublead_text": "J'ai commencé mon parcours dans la programmation il y a un peu plus de 4 ans et je suis devenu passionné par la discipline. Bien que j'aie commencé avec des technos natives telles que Java ou Python, j'ai récemment trouvé un nouvel intérêt dans le monde du web. Actuellement, je m'apprends à utiliser des outils JavaScript comme vue.js ou react."
+      "sublead_text": "J'ai commencé mon parcours dans la programmation il y a environ 4 ans et je suis devenu passionné par la discipline. Bien que j'aie commencé avec des technos natives telles que Java ou Python, j'ai récemment trouvé un nouvel intérêt dans le monde du web. Je maîtrise les outils des écosystèmes PHP/Symfony et Java/spring. Actuellement, je m'apprends à utiliser des outils JavaScript tels que react et vue.js."
+    },
+    "resume": {
+      "title": "CV",
+      "title_experience": "Expérience",
+      "title_education": "Formations",
+      "title_skillset": "Compétences",
+      "experience_present": "Présent",
+      "experience": {
+        "apprenti_ingenieur_ign": {
+          "job_title": "Développeur Junior (Apprenti)",
+          "tasks": {
+            "1": "développement d'applications web et CLI",
+            "2": "technologies pratiquées : PHP/Symfony, Javascript, Python, Docker, CircleCI/Travis/Jenkins"
+          }
+        },
+        "apprenti_developpeur_tti": {
+          "job_title": "Développeur VBA & technicien de support (Apprenti)",
+          "tasks": {
+            "1": "développement d'applications en VBA pour le service RH",
+            "2": "gestion du support informatique et l'inventaire"
+          }
+        }
+      },
+      "education": {
+        "diplome_ingenieur_esiea": {
+          "degree": "Diplôme d'ingénieur ESIEA (CTI)"
+        }
+      }
     }
   }
 }

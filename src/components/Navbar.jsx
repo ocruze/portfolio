@@ -1,4 +1,8 @@
-import { faBars, faGlobe, faSquare } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faLanguage,
+  faSquare,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -62,19 +66,19 @@ const Navbar = () => {
                 aria-expanded="false"
                 title={t("navbar.action_texts.change_language")}
               >
-                <FontAwesomeIcon icon={faGlobe} />
+                <FontAwesomeIcon icon={faLanguage} />
               </button>
               <ul
                 className="dropdown-menu dropdown-menu-md-end"
                 aria-labelledby="language-selector"
               >
                 <li>
-                  <h6 class="dropdown-header">
+                  <h6 className="dropdown-header">
                     {t("navbar.action_texts.change_language")}
                   </h6>
                 </li>
                 {Object.keys(languages).map((lang) => (
-                  <li>
+                  <li key={lang}>
                     <button
                       className={
                         "dropdown-item" +
