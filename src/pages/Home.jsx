@@ -12,7 +12,7 @@ const Home = () => {
       <div className="col-md-4 col-xl-4 box-shadow">
         <div className="row bg-lightblue justify-content-center text-center">
           <img
-            src="https://picsum.photos/300/300"
+            src="/static/images/ben-sweet-2LowviVHZ-E-unsplash-square.jpg"
             alt="avatar"
             className="rounded-circle w-auto m-5"
           />
