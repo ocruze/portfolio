@@ -1,17 +1,18 @@
 {
-  "software_development": ["Java (spring, hibernate)", "C", "Python", "Bash"],
+  "software_development": [
+    "Java (spring, hibernate, swing, JavaFx)",
+    "C",
+    "Python",
+    "Bash"
+  ],
   "web_development": [
     "HTML",
-    "CSS (Bootstrap, vuetifyjs)",
+    "CSS (Bootstrap, bulma)",
     "JavaScript (react, vue.js)",
     "PHP (Symfony)"
   ],
   "database_administration": ["SQL (PostgreSQL, MySQL, SQLite)"],
   "dev_tools": ["Git", "Docker", "CI (CircleCI, Travis CI)", "Trello"],
   "computer_networking": ["IPv4 & IPv6", "Routing", "DNS", "NFS", "DHCP"],
-  "languages": [
-    "English (fluent, TOEIC : 990)",
-    "French (fluent)",
-    "Bengali (native)"
-  ]
+  "languages": ["lang_english", "lang_french", "lang_bengali"]
 }

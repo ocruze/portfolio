@@ -83,6 +83,17 @@
             "1": "Specialization: engineering science"
           }
         }
+      },
+      "skills": {
+        "software_development": "Software development",
+        "web_development": "Web development",
+        "database_administration": "Database administration",
+        "dev_tools": "Dev tools",
+        "computer_networking": "Computer networking",
+        "languages": "Languages",
+        "lang_english": "English (fluent, TOEIC: 990)",
+        "lang_french": "French (fluent)",
+        "lang_bengali": "Bengali (native)"
       }
     }
   }

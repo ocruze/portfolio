@@ -83,6 +83,17 @@
             "1": "Spécialité : Sciences de l'ingénieur (SI)"
           }
         }
+      },
+      "skills": {
+        "software_development": "Développement logiciel",
+        "web_development": "Développement web",
+        "database_administration": "Administration des bases de données",
+        "dev_tools": "Outils de développement",
+        "computer_networking": "Réseaux informatiques",
+        "languages": "Langues",
+        "lang_english": "Anglais (bilingue, TOEIC : 990)",
+        "lang_french": "Français (bilingue)",
+        "lang_bengali": "Bengali (langue maternelle)"
       }
     }
   }

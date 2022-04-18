@@ -1,11 +1,16 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const SkillsetSection = ({ skills }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="box-shadow rounded m-4 p-3">
       <div className="row">
         <div className="col-lg-4 d-flex align-items-center">
-          <p className="fw-bold fs-5 text-primary">Software development</p>
+          <p className="fw-bold fs-5 text-primary">
+            {t(`pages.resume.skills.software_development`)}
+          </p>
         </div>
 
         <div className="col-lg-8 d-flex align-items-center">
@@ -23,7 +28,9 @@ const SkillsetSection = ({ skills }) => {
 
       <div className="row">
         <div className="col-lg-4 d-flex align-items-center">
-          <p className="fw-bold fs-5 text-primary">Web development</p>
+          <p className="fw-bold fs-5 text-primary">
+            {t(`pages.resume.skills.web_development`)}
+          </p>
         </div>
 
         <div className="col-lg-8 d-flex align-items-center">
@@ -41,7 +48,9 @@ const SkillsetSection = ({ skills }) => {
 
       <div className="row">
         <div className="col-lg-4 d-flex align-items-center">
-          <p className="fw-bold fs-5 text-primary">Database administration</p>
+          <p className="fw-bold fs-5 text-primary">
+            {t(`pages.resume.skills.database_administration`)}
+          </p>
         </div>
 
         <div className="col-lg-8 d-flex align-items-center">
@@ -59,7 +68,9 @@ const SkillsetSection = ({ skills }) => {
 
       <div className="row">
         <div className="col-lg-4 d-flex align-items-center">
-          <p className="fw-bold fs-5 text-primary">Dev tools</p>
+          <p className="fw-bold fs-5 text-primary">
+            {t(`pages.resume.skills.dev_tools`)}
+          </p>
         </div>
 
         <div className="col-lg-8 d-flex align-items-center">
@@ -77,7 +88,9 @@ const SkillsetSection = ({ skills }) => {
 
       <div className="row">
         <div className="col-lg-4 d-flex align-items-center">
-          <p className="fw-bold fs-5 text-primary">Computer networking</p>
+          <p className="fw-bold fs-5 text-primary">
+            {t(`pages.resume.skills.computer_networking`)}
+          </p>
         </div>
 
         <div className="col-lg-8 d-flex align-items-center">
@@ -95,14 +108,16 @@ const SkillsetSection = ({ skills }) => {
 
       <div className="row">
         <div className="col-lg-4 d-flex align-items-center">
-          <p className="fw-bold fs-5 text-primary">Languages</p>
+          <p className="fw-bold fs-5 text-primary">
+            {t(`pages.resume.skills.languages`)}
+          </p>
         </div>
 
         <div className="col-lg-8 d-flex align-items-center">
           {
             <ul>
               {skills.languages.map((language, index) => (
-                <li key={index}>{language}</li>
+                <li key={index}>{t(`pages.resume.skills.${language}`)}</li>
               ))}
             </ul>
           }
