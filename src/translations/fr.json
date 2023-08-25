@@ -126,7 +126,7 @@
       "mamanjaipasratelavion_website": {
         "title": "mamanjaipasratelavion",
         "short_desc": "Répertoire d'informations de tous les aéroports du monde",
-        "long_desc": "Ceci est mon tout premier site web dynamique que mon groupe et moi avons développé avec son backend en PHP et une base de donnée MySQL. This is the very first dynamic website that my group and I made with a PHP backend and a MySQL database as a project whilst in DUT. This is a crowdsourced platform that collects and shares all sorts of information about airports, and informs people about lesser-known information about airports to avoid any unexpected problems."
+        "long_desc": "Ceci est mon tout premier site web dynamique que mon groupe et moi avons développé avec son backend en PHP et une base de donnée MySQL. Il s'agit d'une plateforme participative qui collecte et partage toutes sortes d'informations sur les aéroports et informe les gens sur des informations moins connues sur les aéroports afin d'éviter tout problème inattendu."
       },
       "youquest_game": {
         "title": "YouQuest",
