@@ -19,9 +19,7 @@ const Resume = () => {
 
       <div className="row">
         <section>
-          <h2 className="ff-poppins text-center">
-            {t("pages.resume.title_experience")}
-          </h2>
+          <h2 className="ff-poppins text-center">{t("pages.resume.title_experience")}</h2>
 
           {experience.map((exp, index) => (
             <ExperienceCard key={index} {...exp} />
@@ -31,9 +29,7 @@ const Resume = () => {
 
       <div className="row">
         <section>
-          <h2 className="ff-poppins text-center">
-            {t("pages.resume.title_education")}
-          </h2>
+          <h2 className="ff-poppins text-center">{t("pages.resume.title_education")}</h2>
 
           {education.map((edu, index) => (
             <EducationCard key={index} {...edu} />
@@ -43,9 +39,7 @@ const Resume = () => {
 
       <div className="row">
         <section>
-          <h2 className="ff-poppins text-center">
-            {t("pages.resume.title_skillset")}
-          </h2>
+          <h2 className="ff-poppins text-center">{t("pages.resume.title_skillset")}</h2>
 
           <SkillsetSection skills={skills} />
         </section>

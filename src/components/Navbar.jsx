@@ -1,8 +1,4 @@
-import {
-  faBars,
-  faLanguage,
-  faSquare,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faLanguage, faSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -17,18 +13,13 @@ const languages = {
 const Navbar = () => {
   const { t } = useTranslation();
 
-  const [currentLanguage, setCurrentLanguage] = useState(
-    i18n.resolvedLanguage || "en"
-  );
+  const [currentLanguage, setCurrentLanguage] = useState(i18n.resolvedLanguage || "en");
 
   return (
     <>
       <nav className="navbar navbar-expand-md m-3">
         <div className="container-xl">
-          <Link
-            to="/"
-            className="navbar-brand ff-poppins fs-2 fw-bold text-dark"
-          >
+          <Link to="/" className="navbar-brand ff-poppins fs-2 fw-bold text-dark">
             <FontAwesomeIcon icon={faSquare} className="text-primary" />
             &nbsp;{t("my_info.full_name")}.
           </Link>
@@ -68,22 +59,14 @@ const Navbar = () => {
               >
                 <FontAwesomeIcon icon={faLanguage} />
               </button>
-              <ul
-                className="dropdown-menu dropdown-menu-md-end"
-                aria-labelledby="language-selector"
-              >
+              <ul className="dropdown-menu dropdown-menu-md-end" aria-labelledby="language-selector">
                 <li>
-                  <h6 className="dropdown-header">
-                    {t("navbar.action_texts.change_language")}
-                  </h6>
+                  <h6 className="dropdown-header">{t("navbar.action_texts.change_language")}</h6>
                 </li>
                 {Object.keys(languages).map((lang) => (
                   <li key={lang}>
                     <button
-                      className={
-                        "dropdown-item" +
-                        (lang == currentLanguage ? " active" : "")
-                      }
+                      className={"dropdown-item" + (lang == currentLanguage ? " active" : "")}
                       type="button"
                       aria-current={lang == currentLanguage ? "true" : "false"}
                       onClick={() => {

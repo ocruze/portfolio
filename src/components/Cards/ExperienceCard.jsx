@@ -14,9 +14,7 @@ const ExperienceCard = (props) => {
           <p className="fw-bold fs-5 text-primary">
             {props.start} - {props.end || t("pages.resume.experience_present")}
           </p>
-          <p className="fw-bold">
-            {t(`pages.resume.experience.${props.slug}.job_title`)}
-          </p>
+          <p className="fw-bold">{t(`pages.resume.experience.${props.slug}.job_title`)}</p>
           <p>{props.employer}</p>
           <p>
             <FontAwesomeIcon icon={faMapMarkerAlt} className="text-success" />
@@ -25,11 +23,7 @@ const ExperienceCard = (props) => {
           </p>
           {props.employer_linkedin ? (
             <p>
-              <a
-                href={props.employer_linkedin}
-                className="btn btn-link p-0"
-                aria-label="linkedin profile link"
-              >
+              <a href={props.employer_linkedin} className="btn btn-link p-0" aria-label="linkedin profile link">
                 <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
             </p>
@@ -41,11 +35,7 @@ const ExperienceCard = (props) => {
           {
             <ul>
               {Array.from({ length: props.tasks_num }, (value, index) => (
-                <li key={index}>
-                  {t(
-                    `pages.resume.experience.${props.slug}.tasks.${index + 1}`
-                  )}
-                </li>
+                <li key={index}>{t(`pages.resume.experience.${props.slug}.tasks.${index + 1}`)}</li>
               ))}
             </ul>
           }

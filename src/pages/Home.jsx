@@ -11,28 +11,16 @@ const Home = () => {
     <div className="row justify-content-center">
       <div className="col-md-4 col-xl-4 box-shadow">
         <div className="row bg-lightblue justify-content-center text-center">
-          <img
-            src="/static/images/ben-sweet-2LowviVHZ-E-unsplash-square.jpg"
-            alt="avatar"
-            className="rounded-circle w-auto m-5"
-          />
+          <img src="/static/images/ben-sweet-2LowviVHZ-E-unsplash-square.jpg" alt="avatar" className="rounded-circle w-auto m-5" />
           <h3 className="ff-poppins fw-bold">{t("my_info.full_name")}</h3>
           <p className="fw-bold my-4">{t("my_info.job_title")}</p>
         </div>
         <div className="row">
           <div className="d-flex justify-content-center my-2">
-            <a
-              href="https://www.linkedin.com/in/o-a-cruze"
-              className="btn btn-link link-dark me-3"
-              aria-label="linkedin profile link"
-            >
+            <a href="https://www.linkedin.com/in/o-a-cruze" className="btn btn-link link-dark me-3" aria-label="linkedin profile link">
               <FontAwesomeIcon icon={faLinkedinIn} className="fs-3" />
             </a>
-            <a
-              href="https://github.com/ocruze"
-              className="btn btn-link link-dark"
-              aria-label="github profile link"
-            >
+            <a href="https://github.com/ocruze" className="btn btn-link link-dark" aria-label="github profile link">
               <FontAwesomeIcon icon={faGithub} className="fs-3" />
             </a>
           </div>
@@ -40,20 +28,12 @@ const Home = () => {
       </div>
       <div className="col-md col-xl-6 p-5 py-4">
         <h1 className="ff-poppins fa-6x fw-bold">{t("pages.home.hello")}</h1>
-        <h2 className="ff-poppins fs-4 mb-5">
-          {t("pages.home.about_me_heading")}
-        </h2>
+        <h2 className="ff-poppins fs-4 mb-5">{t("pages.home.about_me_heading")}</h2>
 
-        <Link
-          to="/resume"
-          className="text-uppercase btn btn-primary rounded-pill text-light fw-bold me-2 px-3"
-        >
+        <Link to="/resume" className="text-uppercase btn btn-primary rounded-pill text-light fw-bold me-2 px-3">
           {t("pages.home.link_texts.resume")}
         </Link>
-        <Link
-          to="/projects"
-          className="text-uppercase btn btn-outline-dark rounded-pill fw-bold px-3"
-        >
+        <Link to="/projects" className="text-uppercase btn btn-outline-dark rounded-pill fw-bold px-3">
           {t("pages.home.link_texts.projects")}
         </Link>
 

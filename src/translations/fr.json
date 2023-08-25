@@ -43,6 +43,14 @@
       "title_skillset": "Compétences",
       "experience_present": "Présent",
       "experience": {
+        "developer_ign": {
+          "job_title": "Concepteur-Développeur",
+          "tasks": {
+            "1": "développement d'applications web et CLI",
+            "2": "traitement de données géographiques",
+            "3": "technologies pratiquées : PHP/Symfony, Javascript, Python, Docker, CircleCI/Travis/Jenkins"
+          }
+        },
         "apprenti_ingenieur_ign": {
           "job_title": "Développeur Junior (Apprenti)",
           "tasks": {

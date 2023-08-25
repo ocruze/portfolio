@@ -43,6 +43,14 @@
       "title_skillset": "Skillset",
       "experience_present": "Present",
       "experience": {
+        "developer_ign": {
+          "job_title": "Software Developer",
+          "tasks": {
+            "1": "Web and CLI applications",
+            "2": "geographic data prcessing",
+            "3": "tech/tool stack : PHP/Symfony, Javascript, Python, Docker, CircleCI/Travis/Jenkins"
+          }
+        },
         "apprenti_ingenieur_ign": {
           "job_title": "Junior Developer (Apprentice)",
           "tasks": {
