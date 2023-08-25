@@ -2,9 +2,12 @@ import { faGit, faGithub, faGitlab } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { useTranslation } from "react-i18next";
 import ReactPlayer from "react-player";
 
 const ProjectCard = (props) => {
+  const { t } = useTranslation();
+
   const getGitIcon = (url) => {
     let icon = null;
 
@@ -24,15 +27,25 @@ const ProjectCard = (props) => {
       <div className="row">
         <div className="col-md col-lg-8 p-4 px-5">
           <div className="row">
-            <p className="fw-bold fs-5 text-primary">{props.title}</p>
+            <p className="fw-bold fs-5 text-primary">
+              {t(`pages.projects.${props.slug}.title`)}
+            </p>
           </div>
 
           <div className="row">
-            {props.short_desc ? <p>{props.short_desc}</p> : ""}
+            {t(`pages.projects.${props.slug}.short_desc`).length > 0 ? (
+              <p>{t(`pages.projects.${props.slug}.short_desc`)}</p>
+            ) : (
+              ""
+            )}
           </div>
 
           <div className="row">
-            {props.long_desc ? <p>{props.long_desc}</p> : ""}
+            {t(`pages.projects.${props.slug}.long_desc`).length > 0 ? (
+              <p>{t(`pages.projects.${props.slug}.long_desc`)}</p>
+            ) : (
+              ""
+            )}
           </div>
 
           <div className="row">

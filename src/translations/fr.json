@@ -95,6 +95,41 @@
         "lang_french": "Français (bilingue)",
         "lang_bengali": "Bengali (langue maternelle)"
       }
+    },
+    "projects": {
+      "title": "Projets",
+      "source_code": "Code source",
+      "live_demo": "Démo en ligne",
+      "portfolio_website": {
+        "title": "Mon site web portfolio",
+        "short_desc": "Ce site web portfolio",
+        "long_desc": ""
+      },
+      "ar_visiting_card": {
+        "title": "Carte de visite en AR",
+        "short_desc": "",
+        "long_desc": "Mon équipe à l'ESIEA et moi avons développé une application mobile qui présente une carte de visite en réalité augmentée."
+      },
+      "doodle_website": {
+        "title": "Doodle",
+        "short_desc": "",
+        "long_desc": "Dans le cadre d'un projet à l'ESIEA, mon équipe et moi avons développé un site web de sondages de date afin d'aider à l'organisation des évènements collectifs. Le client (frontend) créé en vue.js se sert d'une API maison développée en Java (spring, hibernate)."
+      },
+      "mamanjaipasratelavion_website": {
+        "title": "mamanjaipasratelavion",
+        "short_desc": "Répertoire d'informations de tous les aéroports du monde",
+        "long_desc": "Ceci est mon tout premier site web dynamique que mon groupe et moi avons développé avec son backend en PHP et une base de donnée MySQL. This is the very first dynamic website that my group and I made with a PHP backend and a MySQL database as a project whilst in DUT. This is a crowdsourced platform that collects and shares all sorts of information about airports, and informs people about lesser-known information about airports to avoid any unexpected problems."
+      },
+      "youquest_game": {
+        "title": "YouQuest",
+        "short_desc": "Jeu vidéo zelda-like",
+        "long_desc": "C'est un petit jeu vidéo Zelda-like que mon groupe à l'IUT et moi avions développé en Java et JavaFx. Ce jeu contient 2 niveaux de jeu avec une carte différente, rendue à partir d'un plan de tuiles que j'avais créé moi-même. J'ai pu apprendre l'architecture MVC lors de ce premier grand projet de ma formation de DUT Informatique."
+      },
+      "sudoku_game_cli": {
+        "title": "Sudoku",
+        "short_desc": "Sudoku sur terminal",
+        "long_desc": "C'est un petit jeu sur terminal avec un générateur de grille aléatoire avec 3 niveaux de difficultés. C'était mon tout premier projet de programmation Java à l'IUT. N'ayant pas encore appris à développer des interfaces graphiques en Java, j'ai créé ce jeu sur terminal. J'étais très content quand j'ai obtenu 17/20 pour ce projet, et c'est là que je suis devenu passioné de la programmation."
+      }
     }
   }
 }
