@@ -33,8 +33,8 @@
         "resume": "CV",
         "projects": "Projets"
       },
-      "lead_text": "Je suis étudiant à l'école d'ingénieurs ESIEA et apprenti développeur à l'IGN.",
-      "sublead_text": "J'ai commencé mon parcours dans la programmation il y a environ 4 ans et je suis devenu passionné par la discipline. Bien que j'aie commencé avec des technos natives telles que Java ou Python, j'ai récemment trouvé un nouvel intérêt dans le monde du web. Je maîtrise les outils des écosystèmes PHP/Symfony et Java/spring. Actuellement, je m'apprends à utiliser des outils JavaScript tels que react et vue.js."
+      "lead_text": "Je suis ingénieur en informatique ESIEA et concepteur-développeur à l'IGN.",
+      "sublead_text": "Il y a environ 6 ans, j'ai entamé mon périple dans le domaine de la programmation et depuis je suis passionné par cette discipline. Bien que j'aie commencé avec des technos natives telles que Java ou Python, j'ai récemment trouvé un nouvel engouement pour l'univers du web. Je maîtrise les outils des écosystèmes PHP/Symfony et Java/spring. Actuellement, je m'apprends à utiliser des outils JavaScript tels que react et vue.js."
     },
     "resume": {
       "title": "CV",

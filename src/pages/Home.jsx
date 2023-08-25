@@ -11,13 +11,21 @@ const Home = () => {
     <div className="row justify-content-center">
       <div className="col-md-4 col-xl-4 box-shadow">
         <div className="row bg-lightblue justify-content-center text-center">
-          <img src="/static/images/ben-sweet-2LowviVHZ-E-unsplash-square.jpg" alt="avatar" className="rounded-circle w-auto m-5" />
+          <img
+            src="/static/images/ben-sweet-2LowviVHZ-E-unsplash-square.jpg"
+            alt="avatar"
+            className="rounded-circle w-auto m-5"
+          />
           <h3 className="ff-poppins fw-bold">{t("my_info.full_name")}</h3>
           <p className="fw-bold my-4">{t("my_info.job_title")}</p>
         </div>
         <div className="row">
           <div className="d-flex justify-content-center my-2">
-            <a href="https://www.linkedin.com/in/o-a-cruze" className="btn btn-link link-dark me-3" aria-label="linkedin profile link">
+            <a
+              href="https://www.linkedin.com/in/o-a-cruze"
+              className="btn btn-link link-dark me-3"
+              aria-label="linkedin profile link"
+            >
               <FontAwesomeIcon icon={faLinkedinIn} className="fs-3" />
             </a>
             <a href="https://github.com/ocruze" className="btn btn-link link-dark" aria-label="github profile link">

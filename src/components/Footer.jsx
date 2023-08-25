@@ -32,10 +32,18 @@ const Footer = () => {
             </div>
             <div className="col text-center">
               <p className="fw-bold">{t("footer.action_labels.follow_me")}</p>
-              <a href="https://www.linkedin.com/in/o-a-cruze" className="btn btn-link link-dark px-1" aria-label="linkedin profile link">
+              <a
+                href="https://www.linkedin.com/in/o-a-cruze"
+                className="btn btn-link link-dark px-1"
+                aria-label="linkedin profile link"
+              >
                 <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
-              <a href="https://github.com/ocruze" className="btn btn-link link-dark px-1" aria-label="github profile link">
+              <a
+                href="https://github.com/ocruze"
+                className="btn btn-link link-dark px-1"
+                aria-label="github profile link"
+              >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>

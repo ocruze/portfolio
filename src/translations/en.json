@@ -33,8 +33,8 @@
         "resume": "Resume",
         "projects": "Projects"
       },
-      "lead_text": "I'm studying IT at the engineering school ESIEA and I'm an apprentice developer at IGN.",
-      "sublead_text": "I've started my journey in programming about 4 years ago and I was hooked ever since. Even though I started with native technologies such as Java or Python, I've got a new-found interest in web development. I'm fairly proficient in the PHP/Symfony and Java/spring ecosystems. Currently, I'm teaching myself Javascript technologies like react and vue.js."
+      "lead_text": "I'm an IT engineer (ESIEA) and a software developer at IGN.",
+      "sublead_text": "I embarked upon my programming journery roughly 6 years ago, a path that has captivated my interest ever since. While I initially delved with native technologies such as Java or Python, I have recently developed a newfound fascination with the realm of web development. I'm fairly proficient in the PHP/Symfony and Java/spring ecosystems. Currently, I'm teaching myself Javascript technologies like react and vue.js."
     },
     "resume": {
       "title": "Resume",
