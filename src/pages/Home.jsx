@@ -35,8 +35,8 @@ const Home = () => {
         </div>
       </div>
       <div className="col-md col-xl-6 p-5 py-4">
-        <h1 className="ff-poppins fa-6x fw-bold">{t("pages.home.hello")}</h1>
-        <h2 className="ff-poppins fs-4 mb-5">{t("pages.home.about_me_heading")}</h2>
+        <h1 className="ff-poppins fw-bold fa-4x">{t("pages.home.hello")}</h1>
+        <h2 className="ff-poppins fa-2x fs-5 mb-5">{t("pages.home.about_me_heading")}</h2>
 
         <Link to="/resume" className="text-uppercase btn btn-primary rounded-pill text-light fw-bold me-2 px-3">
           {t("pages.home.link_texts.resume")}
