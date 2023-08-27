@@ -126,7 +126,7 @@
       "mamanjaipasratelavion_website": {
         "title": "mamanjaipasratelavion",
         "short_desc": "Répertoire d'informations de tous les aéroports du monde",
-        "long_desc": "Ceci est le tout premier site web dynamique que mon groupe et moi avons développé avec son backend en PHP et une base de donnée MySQL. Il s'agit d'une plateforme participative qui collecte et partage toutes sortes d'informations sur les aéroports et informe les gens sur des informations moins connues sur les aéroports afin d'éviter tout problème inattendu."
+        "long_desc": "Ceci est le tout premier site web dynamique que mon groupe et moi avons développé avec son backend en PHP et une base de données MySQL. Il s'agit d'une plateforme participative qui collecte et partage toutes sortes d'informations sur les aéroports et informe les gens sur des informations moins connues sur les aéroports afin d'éviter tout problème inattendu."
       },
       "youquest_game": {
         "title": "YouQuest",
@@ -136,7 +136,7 @@
       "sudoku_game_cli": {
         "title": "Sudoku",
         "short_desc": "Sudoku sur terminal",
-        "long_desc": "C'est un petit jeu sur terminal avec un générateur de grille aléatoire avec 3 niveaux de difficultés. C'était mon tout premier projet de programmation Java à l'IUT. N'ayant pas encore appris à développer des interfaces graphiques en Java, j'ai créé ce jeu sur terminal. J'étais très content quand j'ai obtenu 17/20 pour ce projet, et c'est là que je suis devenu passioné de la programmation."
+        "long_desc": "C'est un petit jeu sur terminal avec un générateur de grille aléatoire avec 3 niveaux de difficultés. C'était mon tout premier projet de programmation Java à l'IUT. N'ayant pas encore appris à développer des interfaces graphiques en Java, j'ai créé ce jeu sur terminal. J'étais très content quand j'ai obtenu 17/20 pour ce projet, et c'est là que je suis devenu passionné de la programmation."
       }
     }
   }

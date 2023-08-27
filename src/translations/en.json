@@ -34,7 +34,7 @@
         "projects": "Projects"
       },
       "lead_text": "I'm an IT engineer (ESIEA) and a software developer at IGN.",
-      "sublead_text": "I embarked upon my programming journey roughly 6 years ago, a path that has captivated my interest ever since. While I initially delved with native technologies such as Java or Python, I have recently developed a newfound fascination with the realm of web development. I'm fairly proficient in the PHP/Symfony and Java/spring ecosystems. Currently, I'm teaching myself Javascript technologies like react and vue.js."
+      "sublead_text": "I embarked upon my programming journey roughly 6 years ago, a path that has captivated my interest ever since. While I initially delved with native technologies such as Java or Python, I have recently developed a newfound fascination with the realm of web development. I'm fairly proficient in the PHP/Symfony and Java/spring ecosystems. Currently, I'm teaching myself JavaScript technologies like react and vue.js."
     },
     "resume": {
       "title": "Resume",
@@ -121,12 +121,12 @@
       "doodle_website": {
         "title": "Doodle",
         "short_desc": "",
-        "long_desc": "For a school project at ESIEA, my team and I have made a survey website that helps in organising group events. The frontend of the website created in vue.js uses an in-house API developped in Java (spring, hibernate)."
+        "long_desc": "For a school project at ESIEA, my team and I have made a survey website that helps in organising group events. The frontend of the website created in vue.js uses an in-house API developed in Java (spring, hibernate)."
       },
       "mamanjaipasratelavion_website": {
         "title": "mamanjaipasratelavion",
-        "short_desc": "Info about all the airports in the world",
-        "long_desc": "This is the very first dynamic website that my group and I made with a PHP backend and a MySQL database as a project whilst in DUT. This is a crowdsourced platform that collects and shares all sorts of information about airports, and informs people about lesser-known information about airports to avoid any unexpected problems."
+        "short_desc": "Information about all the airports in the world",
+        "long_desc": "This is the very first dynamic website that my group and I made with a PHP backend and a MySQL database as a project whilst in DUT. This is a crowdsourced platform that collects and shares all sorts of information about airports and informs people about lesser-known information about airports to avoid any unexpected problems."
       },
       "youquest_game": {
         "title": "YouQuest",
@@ -136,7 +136,7 @@
       "sudoku_game_cli": {
         "title": "Sudoku",
         "short_desc": "Console-based Sudoku game",
-        "long_desc": "This is a console-based Sudoku game with a random grid generator with 3 difficulty levels. This was my very first college project in Java programming. Not having learnt graphical interfaces in Java at this point yet, I made the entire game in CLI. I scored 17/20 on this project. I was super happy and this is when I fell in love with programming."
+        "long_desc": "This is a console-based Sudoku game with a random grid generator with 3 difficulty levels. This was my very first college project in Java programming. Not having learnt graphical interfaces in Java at this point yet, I made the entire game in CLI. I scored 17/20 on this project. I was super happy, and this is when I fell in love with programming."
       }
     }
   }
