@@ -18,20 +18,20 @@ const Footer = () => {
 
           <div className="col-md-8 row row-cols-1 row-cols-sm-auto justify-content-center justify-content-md-end">
             <div className="col text-center">
-              <p className="fw-bold">{t("footer.action_labels.call_me")}</p>
-              <a href="tel:0033618765806" className="btn btn-link text-decoration-none text-black">
+              <p className="fw-bold mb-0">{t("footer.action_labels.call_me")}</p>
+              <a href="tel:0033618765806" className="btn btn-link text-decoration-none text-black mb-3">
                 06 18 76 58 06
               </a>
             </div>
 
             <div className="col text-center">
-              <p className="fw-bold">{t("footer.action_labels.email_me")}</p>
-              <a href="mailto:o.cruze@live.com" className="btn btn-link text-decoration-none text-black">
+              <p className="fw-bold mb-0">{t("footer.action_labels.email_me")}</p>
+              <a href="mailto:o.cruze@live.com" className="btn btn-link text-decoration-none text-black mb-3">
                 o.cruze@live.com
               </a>
             </div>
             <div className="col text-center">
-              <p className="fw-bold">{t("footer.action_labels.follow_me")}</p>
+              <p className="fw-bold mb-0">{t("footer.action_labels.follow_me")}</p>
               <a
                 href="https://www.linkedin.com/in/o-a-cruze"
                 className="btn btn-link link-dark px-1"
