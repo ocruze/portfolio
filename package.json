@@ -19,7 +19,7 @@
         "history": "^5.1.0",
         "i18next": "^21.5.2",
         "i18next-browser-languagedetector": "^6.1.2",
-        "postcss": "^8.3.11",
+        "postcss": "^8.4.31",
         "react": "^17.0.0",
         "react-dom": "^17.0.0",
         "react-i18next": "^11.14.2",
