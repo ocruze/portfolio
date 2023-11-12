@@ -10,7 +10,7 @@ const languages = {
     fr: "Français",
 };
 
-const Navbar = () => {
+const Header = () => {
     const { t } = useTranslation();
 
     const [currentLanguage, setCurrentLanguage] = useState(i18n.resolvedLanguage || "en");
@@ -87,4 +87,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Header;
