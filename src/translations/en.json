@@ -1,143 +1,143 @@
 {
-  "global": {
-    "loading": "Loading..."
-  },
-  "my_info": {
-    "full_name": "Orka Arnest Cruze",
-    "job_title": "Software Developer"
-  },
-  "navbar": {
-    "action_texts": {
-      "home": "Home",
-      "resume": "Resume",
-      "projects": "Projects",
-      "change_language": "Change language"
-    }
-  },
-  "footer": {
-    "action_labels": {
-      "call_me": "Call me",
-      "email_me": "Email me",
-      "follow_me": "Follow me"
-    }
-  },
-  "pages": {
-    "not_found": {
-      "heading": "Oops, seems like you've got lost",
-      "homepage_link_text": "Go back to the homepage"
+    "global": {
+        "loading": "Loading..."
     },
-    "home": {
-      "hello": "Hello",
-      "about_me_heading": "Here's who I am & what I do",
-      "link_texts": {
-        "resume": "Resume",
-        "projects": "Projects"
-      },
-      "lead_text": "I'm an IT engineer (ESIEA) and a software developer at IGN.",
-      "sublead_text": "I embarked upon my programming journey roughly 6 years ago, a path that has captivated my interest ever since. While I initially delved with native technologies such as Java or Python, I have recently developed a newfound fascination with the realm of web development. I'm fairly proficient in the PHP/Symfony and Java/spring ecosystems. Currently, I'm teaching myself JavaScript technologies like react and vue.js."
+    "my_info": {
+        "full_name": "Orka Arnest Cruze",
+        "job_title": "Software Developer"
     },
-    "resume": {
-      "title": "Resume",
-      "title_experience": "Experience",
-      "title_education": "Education",
-      "title_skillset": "Skillset",
-      "experience_present": "Present",
-      "experience": {
-        "developer_ign": {
-          "job_title": "Software Developer",
-          "tasks": {
-            "1": "Web and CLI applications",
-            "2": "geographic data prcessing",
-            "3": "tech/tool stack : PHP/Symfony, Javascript, Python, Docker, CircleCI/Travis/Jenkins"
-          }
-        },
-        "apprenti_ingenieur_ign": {
-          "job_title": "Junior Developer (Apprentice)",
-          "tasks": {
-            "1": "Web and CLI applications",
-            "2": "tech/tool stack : PHP/Symfony, Javascript, Python, Docker, CircleCI/Travis/Jenkins"
-          }
-        },
-        "apprenti_developpeur_tti": {
-          "job_title": "VBA Developer & IT Technician (Apprentice)",
-          "tasks": {
-            "1": "VBA applications for HR department",
-            "2": "In-charge of IT department and inventory"
-          }
+    "navbar": {
+        "action_texts": {
+            "home": "Home",
+            "resume": "Resume",
+            "projects": "Projects",
+            "change_language": "Change language"
         }
-      },
-      "education": {
-        "diplome_ingenieur_esiea": {
-          "degree": "ESIEA Engineering Degree (CTI)",
-          "course_details": {
-            "1": "Algorithmic, computability et complexity",
-            "2": "Object oriented programming",
-            "3": "Databases",
-            "4": "Cybersecurity",
-            "5": "Data analysis"
-          }
-        },
-        "dut_informatique": {
-          "degree": "DUT Informatique",
-          "course_details": {
-            "1": "Algorithmic & object oriented programming",
-            "2": "Creating and administrating databases",
-            "3": "Web developement"
-          }
-        },
-        "bac_s": {
-          "degree": "A' Levels",
-          "course_details": {
-            "1": "Specialization: engineering science"
-          }
-        }
-      },
-      "skills": {
-        "software_development": "Software development",
-        "web_development": "Web development",
-        "database_administration": "Database administration",
-        "dev_tools": "Dev tools",
-        "computer_networking": "Computer networking",
-        "languages": "Languages",
-        "lang_english": "English (fluent, TOEIC: 990)",
-        "lang_french": "French (fluent)",
-        "lang_bengali": "Bengali (native)"
-      }
     },
-    "projects": {
-      "title": "Projects",
-      "source_code": "Source code",
-      "live_demo": "Live demo",
-      "portfolio_website": {
-        "title": "Portfolio website",
-        "short_desc": "This portfolio website",
-        "long_desc": ""
-      },
-      "ar_visiting_card": {
-        "title": "AR visiting card",
-        "short_desc": "",
-        "long_desc": "My team at ESIEA and I made a mobile application of a visiting card in augmented reality (AR)."
-      },
-      "doodle_website": {
-        "title": "Doodle",
-        "short_desc": "",
-        "long_desc": "For a school project at ESIEA, my team and I have made a survey website that helps in organising group events. The frontend of the website created in vue.js uses an in-house API developed in Java (spring, hibernate)."
-      },
-      "mamanjaipasratelavion_website": {
-        "title": "mamanjaipasratelavion",
-        "short_desc": "Information about all the airports in the world",
-        "long_desc": "This is the very first dynamic website that my group and I made with a PHP backend and a MySQL database as a project whilst in DUT. This is a crowdsourced platform that collects and shares all sorts of information about airports and informs people about lesser-known information about airports to avoid any unexpected problems."
-      },
-      "youquest_game": {
-        "title": "YouQuest",
-        "short_desc": "Zelda-like game",
-        "long_desc": "This is a Zelda-like game that my college teammates and I made entirely in Java and JavaFx. The game contains 2 levels each with a distinct map, rendered from tilemaps that I designed myself. During this first project, I was able to clearly understand the MVC architecture."
-      },
-      "sudoku_game_cli": {
-        "title": "Sudoku",
-        "short_desc": "Console-based Sudoku game",
-        "long_desc": "This is a console-based Sudoku game with a random grid generator with 3 difficulty levels. This was my very first college project in Java programming. Not having learnt graphical interfaces in Java at this point yet, I made the entire game in CLI. I scored 17/20 on this project. I was super happy, and this is when I fell in love with programming."
-      }
+    "footer": {
+        "action_labels": {
+            "call_me": "Call me",
+            "email_me": "Email me",
+            "follow_me": "Follow me"
+        }
+    },
+    "pages": {
+        "not_found": {
+            "heading": "Oops, seems like you've got lost",
+            "homepage_link_text": "Go back to the homepage"
+        },
+        "home": {
+            "hello": "Hello",
+            "about_me_heading": "Here's who I am & what I do",
+            "link_texts": {
+                "resume": "Resume",
+                "projects": "Projects"
+            },
+            "lead_text": "I'm an IT engineer (ESIEA) and a software developer at IGN.",
+            "sublead_text": "I embarked upon my programming journey roughly 6 years ago, a path that has captivated my interest ever since. While I initially delved with native technologies such as Java or Python, I have recently developed a newfound fascination with the realm of web development. I'm fairly proficient in the PHP/Symfony and Java/spring ecosystems. Currently, I'm teaching myself JavaScript technologies like react and vue.js."
+        },
+        "resume": {
+            "title": "Resume",
+            "title_experience": "Experience",
+            "title_education": "Education",
+            "title_skillset": "Skillset",
+            "experience_present": "Present",
+            "experience": {
+                "developer_ign": {
+                    "job_title": "Software Developer",
+                    "tasks": {
+                        "1": "Web and CLI applications",
+                        "2": "geographic data prcessing",
+                        "3": "tech/tool stack : PHP/Symfony, Javascript, Python, Docker, CircleCI/Travis/Jenkins"
+                    }
+                },
+                "apprenti_ingenieur_ign": {
+                    "job_title": "Junior Developer (Apprentice)",
+                    "tasks": {
+                        "1": "Web and CLI applications",
+                        "2": "tech/tool stack : PHP/Symfony, Javascript, Python, Docker, CircleCI/Travis/Jenkins"
+                    }
+                },
+                "apprenti_developpeur_tti": {
+                    "job_title": "VBA Developer & IT Technician (Apprentice)",
+                    "tasks": {
+                        "1": "VBA applications for HR department",
+                        "2": "In-charge of IT department and inventory"
+                    }
+                }
+            },
+            "education": {
+                "diplome_ingenieur_esiea": {
+                    "degree": "ESIEA Engineering Degree (CTI)",
+                    "course_details": {
+                        "1": "Algorithmic, computability et complexity",
+                        "2": "Object oriented programming",
+                        "3": "Databases",
+                        "4": "Cybersecurity",
+                        "5": "Data analysis"
+                    }
+                },
+                "dut_informatique": {
+                    "degree": "DUT Informatique",
+                    "course_details": {
+                        "1": "Algorithmic & object oriented programming",
+                        "2": "Creating and administrating databases",
+                        "3": "Web developement"
+                    }
+                },
+                "bac_s": {
+                    "degree": "A' Levels",
+                    "course_details": {
+                        "1": "Specialization: engineering science"
+                    }
+                }
+            },
+            "skills": {
+                "software_development": "Software development",
+                "web_development": "Web development",
+                "database_administration": "Database administration",
+                "dev_tools": "Dev tools",
+                "computer_networking": "Computer networking",
+                "languages": "Languages",
+                "lang_english": "English (fluent, TOEIC: 990)",
+                "lang_french": "French (fluent)",
+                "lang_bengali": "Bengali (native)"
+            }
+        },
+        "projects": {
+            "title": "Projects",
+            "source_code": "Source code",
+            "live_demo": "Live demo",
+            "portfolio_website": {
+                "title": "Portfolio website",
+                "short_desc": "This portfolio website",
+                "long_desc": ""
+            },
+            "ar_visiting_card": {
+                "title": "AR visiting card",
+                "short_desc": "",
+                "long_desc": "My team at ESIEA and I made a mobile application of a visiting card in augmented reality (AR)."
+            },
+            "doodle_website": {
+                "title": "Doodle",
+                "short_desc": "",
+                "long_desc": "For a school project at ESIEA, my team and I have made a survey website that helps in organising group events. The frontend of the website created in vue.js uses an in-house API developed in Java (spring, hibernate)."
+            },
+            "mamanjaipasratelavion_website": {
+                "title": "mamanjaipasratelavion",
+                "short_desc": "Information about all the airports in the world",
+                "long_desc": "This is the very first dynamic website that my group and I made with a PHP backend and a MySQL database as a project whilst in DUT. This is a crowdsourced platform that collects and shares all sorts of information about airports and informs people about lesser-known information about airports to avoid any unexpected problems."
+            },
+            "youquest_game": {
+                "title": "YouQuest",
+                "short_desc": "Zelda-like game",
+                "long_desc": "This is a Zelda-like game that my college teammates and I made entirely in Java and JavaFx. The game contains 2 levels each with a distinct map, rendered from tilemaps that I designed myself. During this first project, I was able to clearly understand the MVC architecture."
+            },
+            "sudoku_game_cli": {
+                "title": "Sudoku",
+                "short_desc": "Console-based Sudoku game",
+                "long_desc": "This is a console-based Sudoku game with a random grid generator with 3 difficulty levels. This was my very first college project in Java programming. Not having learnt graphical interfaces in Java at this point yet, I made the entire game in CLI. I scored 17/20 on this project. I was super happy, and this is when I fell in love with programming."
+            }
+        }
     }
-  }
 }

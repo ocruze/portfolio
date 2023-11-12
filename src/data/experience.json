@@ -1,27 +1,27 @@
 [
-  {
-    "slug": "developer_ign",
-    "employer": "Institut national de l'information Géographique et Forestière (IGNF)",
-    "employer_location": "Saint-Mandé",
-    "employer_linkedin": "https://www.linkedin.com/company/ignfrance",
-    "start": "2022",
-    "tasks_num": 3
-  },
-  {
-    "slug": "apprenti_ingenieur_ign",
-    "employer": "Institut national de l'information Géographique et Forestière (IGNF)",
-    "employer_location": "Saint-Mandé",
-    "employer_linkedin": "https://www.linkedin.com/company/ignfrance",
-    "start": "2019",
-    "tasks_num": 2
-  },
-  {
-    "slug": "apprenti_developpeur_tti",
-    "employer": "Transport Tertiaire Industrie (TTI)",
-    "employer_location": "Noise-le-Sec",
-    "employer_linkedin": "https://www.linkedin.com/company/transporttertiaireindustriel",
-    "start": "2018",
-    "end": "2019",
-    "tasks_num": 2
-  }
+    {
+        "slug": "developer_ign",
+        "employer": "Institut national de l'information Géographique et Forestière (IGNF)",
+        "employer_location": "Saint-Mandé",
+        "employer_linkedin": "https://www.linkedin.com/company/ignfrance",
+        "start": "2022",
+        "tasks_num": 3
+    },
+    {
+        "slug": "apprenti_ingenieur_ign",
+        "employer": "Institut national de l'information Géographique et Forestière (IGNF)",
+        "employer_location": "Saint-Mandé",
+        "employer_linkedin": "https://www.linkedin.com/company/ignfrance",
+        "start": "2019",
+        "tasks_num": 2
+    },
+    {
+        "slug": "apprenti_developpeur_tti",
+        "employer": "Transport Tertiaire Industrie (TTI)",
+        "employer_location": "Noise-le-Sec",
+        "employer_linkedin": "https://www.linkedin.com/company/transporttertiaireindustriel",
+        "start": "2018",
+        "end": "2019",
+        "tasks_num": 2
+    }
 ]

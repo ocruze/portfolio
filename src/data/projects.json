@@ -1,38 +1,38 @@
 [
-  {
-    "slug": "portfolio_website",
-    "source_code_url": "https://github.com/ocruze/portfolio",
-    "live_url": "https://portfolio.arnestcruze.com",
-    "preview_image_url": "/static/images/TSleSD1.png",
-    "tags": ["react", "HTML", "CSS"]
-  },
-  {
-    "slug": "ar_visiting_card",
-    "source_code_url": "https://github.com/ocruze/visiting-card",
-    "preview_video_yt_url": "https://www.youtube.com/watch?v=9TJZaYUpbS0",
-    "tags": ["Unity Engine", "C#"]
-  },
-  {
-    "slug": "doodle_website",
-    "source_code_url": "https://github.com/ocruze/doodle",
-    "preview_image_url": "/static/images/eL88SBv.jpg",
-    "tags": ["Java (springboot)", "vue.js", "HTML", "CSS"]
-  },
-  {
-    "slug": "mamanjaipasratelavion_website",
-    "source_code_url": "https://github.com/ocruze/mamanjaipasratelavion",
-    "preview_image_url": "/static/images/T6PL4Zl.gif",
-    "tags": ["HTML", "CSS", "PHP", "JavaScript", "MySQL"]
-  },
-  {
-    "slug": "youquest_game",
-    "preview_image_url": "/static/images/6PQIyqV.jpg",
-    "tags": ["Java", "JavaFx"]
-  },
-  {
-    "slug": "sudoku_game_cli",
-    "source_code_url": "https://github.com/ocruze/sudoku",
-    "preview_image_url": "/static/images/FWj0o5o.jpg",
-    "tags": ["Java"]
-  }
+    {
+        "slug": "portfolio_website",
+        "source_code_url": "https://github.com/ocruze/portfolio",
+        "live_url": "https://portfolio.arnestcruze.com",
+        "preview_image_url": "/static/images/TSleSD1.png",
+        "tags": ["react", "HTML", "CSS"]
+    },
+    {
+        "slug": "ar_visiting_card",
+        "source_code_url": "https://github.com/ocruze/visiting-card",
+        "preview_video_yt_url": "https://www.youtube.com/watch?v=9TJZaYUpbS0",
+        "tags": ["Unity Engine", "C#"]
+    },
+    {
+        "slug": "doodle_website",
+        "source_code_url": "https://github.com/ocruze/doodle",
+        "preview_image_url": "/static/images/eL88SBv.jpg",
+        "tags": ["Java (springboot)", "vue.js", "HTML", "CSS"]
+    },
+    {
+        "slug": "mamanjaipasratelavion_website",
+        "source_code_url": "https://github.com/ocruze/mamanjaipasratelavion",
+        "preview_image_url": "/static/images/T6PL4Zl.gif",
+        "tags": ["HTML", "CSS", "PHP", "JavaScript", "MySQL"]
+    },
+    {
+        "slug": "youquest_game",
+        "preview_image_url": "/static/images/6PQIyqV.jpg",
+        "tags": ["Java", "JavaFx"]
+    },
+    {
+        "slug": "sudoku_game_cli",
+        "source_code_url": "https://github.com/ocruze/sudoku",
+        "preview_image_url": "/static/images/FWj0o5o.jpg",
+        "tags": ["Java"]
+    }
 ]

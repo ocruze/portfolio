@@ -1,8 +1,13 @@
 {
-  "web_development": ["HTML", "CSS (flex, grid, Bootstrap)", "JavaScript/TypeScript (react, vue.js)", "PHP (Symfony)"],
-  "software_development": ["Python", "Java (spring, hibernate, swing, JavaFx)", "C", "Bash"],
-  "database_administration": ["SQL (PostgreSQL, MySQL, SQLite)"],
-  "dev_tools": ["Git", "Docker", "CI (CircleCI, Travis CI)", "Trello"],
-  "computer_networking": ["IPv4 & IPv6", "Routing", "DNS", "NFS", "DHCP"],
-  "languages": ["lang_english", "lang_french", "lang_bengali"]
+    "web_development": [
+        "HTML",
+        "CSS (flex, grid, Bootstrap)",
+        "JavaScript/TypeScript (react, vue.js)",
+        "PHP (Symfony)"
+    ],
+    "software_development": ["Python", "Java (spring, hibernate, swing, JavaFx)", "C", "Bash"],
+    "database_administration": ["SQL (PostgreSQL, MySQL, SQLite)"],
+    "dev_tools": ["Git", "Docker", "CI (CircleCI, Travis CI)", "Trello"],
+    "computer_networking": ["IPv4 & IPv6", "Routing", "DNS", "NFS", "DHCP"],
+    "languages": ["lang_english", "lang_french", "lang_bengali"]
 }

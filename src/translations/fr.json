@@ -1,143 +1,143 @@
 {
-  "global": {
-    "loading": "Chargement..."
-  },
-  "my_info": {
-    "full_name": "Orka Arnest CRUZE",
-    "job_title": "Concepteur-Développeur"
-  },
-  "navbar": {
-    "action_texts": {
-      "home": "Accueil",
-      "resume": "CV",
-      "projects": "Projets",
-      "change_language": "Changer de langue"
-    }
-  },
-  "footer": {
-    "action_labels": {
-      "call_me": "M'appeler",
-      "email_me": "M'écrire",
-      "follow_me": "Me suivre"
-    }
-  },
-  "pages": {
-    "not_found": {
-      "heading": "Oups, il semblerait que vous soyez perdu",
-      "homepage_link_text": "Revenez à la page d'accueil"
+    "global": {
+        "loading": "Chargement..."
     },
-    "home": {
-      "hello": "Bonjour",
-      "about_me_heading": "A propos de moi",
-      "link_texts": {
-        "resume": "CV",
-        "projects": "Projets"
-      },
-      "lead_text": "Je suis ingénieur en informatique ESIEA et concepteur-développeur à l'IGN.",
-      "sublead_text": "Il y a environ 6 ans, j'ai commencé mon parcours dans le domaine de la programmation et depuis je suis passionné par cette discipline. Bien que j'aie commencé avec des technos natives telles que Java ou Python, j'ai récemment trouvé un nouvel engouement pour l'univers du web. Je maîtrise les outils des écosystèmes PHP/Symfony et Java/spring. Actuellement, j'apprends à utiliser des outils JavaScript tels que react et vue.js."
+    "my_info": {
+        "full_name": "Orka Arnest CRUZE",
+        "job_title": "Concepteur-Développeur"
     },
-    "resume": {
-      "title": "CV",
-      "title_experience": "Expérience",
-      "title_education": "Formations",
-      "title_skillset": "Compétences",
-      "experience_present": "Présent",
-      "experience": {
-        "developer_ign": {
-          "job_title": "Concepteur-Développeur",
-          "tasks": {
-            "1": "développement d'applications web et CLI",
-            "2": "traitement de données géographiques",
-            "3": "technologies pratiquées : PHP/Symfony, Javascript, Python, Docker, CircleCI/Travis/Jenkins"
-          }
-        },
-        "apprenti_ingenieur_ign": {
-          "job_title": "Développeur Junior (Apprenti)",
-          "tasks": {
-            "1": "développement d'applications web et CLI",
-            "2": "technologies pratiquées : PHP/Symfony, Javascript, Python, Docker, CircleCI/Travis/Jenkins"
-          }
-        },
-        "apprenti_developpeur_tti": {
-          "job_title": "Développeur VBA & technicien de support (Apprenti)",
-          "tasks": {
-            "1": "développement d'applications en VBA pour le service RH",
-            "2": "gestion du support informatique et l'inventaire"
-          }
+    "navbar": {
+        "action_texts": {
+            "home": "Accueil",
+            "resume": "CV",
+            "projects": "Projets",
+            "change_language": "Changer de langue"
         }
-      },
-      "education": {
-        "diplome_ingenieur_esiea": {
-          "degree": "Diplôme d'ingénieur ESIEA (CTI)",
-          "course_details": {
-            "1": "Algorithmique, calculabilité et compléxité",
-            "2": "Programmation orientée objet",
-            "3": "Bases de données",
-            "4": "Cybersécurité",
-            "5": "Analyse de données"
-          }
-        },
-        "dut_informatique": {
-          "degree": "DUT Informatique",
-          "course_details": {
-            "1": "Algorithmique & programmation orientée objet",
-            "2": "Création et administration de bases de données",
-            "3": "Programmation web serveur & client"
-          }
-        },
-        "bac_s": {
-          "degree": "Baccalauréat Scientifique",
-          "course_details": {
-            "1": "Spécialité : Sciences de l'ingénieur (SI)"
-          }
-        }
-      },
-      "skills": {
-        "software_development": "Développement logiciel",
-        "web_development": "Développement web",
-        "database_administration": "Administration des bases de données",
-        "dev_tools": "Outils de développement",
-        "computer_networking": "Réseaux informatiques",
-        "languages": "Langues",
-        "lang_english": "Anglais (bilingue, TOEIC : 990)",
-        "lang_french": "Français (bilingue)",
-        "lang_bengali": "Bengali (langue maternelle)"
-      }
     },
-    "projects": {
-      "title": "Projets",
-      "source_code": "Code source",
-      "live_demo": "Démo en ligne",
-      "portfolio_website": {
-        "title": "Mon site web portfolio",
-        "short_desc": "Ce site web portfolio",
-        "long_desc": ""
-      },
-      "ar_visiting_card": {
-        "title": "Carte de visite en AR",
-        "short_desc": "",
-        "long_desc": "Mon équipe à l'ESIEA et moi avons développé une application mobile qui présente une carte de visite en réalité augmentée."
-      },
-      "doodle_website": {
-        "title": "Doodle",
-        "short_desc": "",
-        "long_desc": "Dans le cadre d'un projet à l'ESIEA, mon équipe et moi avons développé un site web de sondages de date afin d'aider à l'organisation des évènements collectifs. Le client (frontend) créé en vue.js se sert d'une API maison développée en Java (spring, hibernate)."
-      },
-      "mamanjaipasratelavion_website": {
-        "title": "mamanjaipasratelavion",
-        "short_desc": "Répertoire d'informations de tous les aéroports du monde",
-        "long_desc": "Ceci est le tout premier site web dynamique que mon groupe et moi avons développé avec son backend en PHP et une base de données MySQL. Il s'agit d'une plateforme participative qui collecte et partage toutes sortes d'informations sur les aéroports et informe les gens sur des informations moins connues sur les aéroports afin d'éviter tout problème inattendu."
-      },
-      "youquest_game": {
-        "title": "YouQuest",
-        "short_desc": "Jeu vidéo zelda-like",
-        "long_desc": "C'est un petit jeu vidéo Zelda-like que mon groupe à l'IUT et moi avions développé en Java et JavaFx. Ce jeu contient 2 niveaux de jeu avec une carte différente, rendue à partir d'un plan de tuiles que j'avais créé moi-même. J'ai pu apprendre l'architecture MVC lors de ce premier grand projet de ma formation de DUT Informatique."
-      },
-      "sudoku_game_cli": {
-        "title": "Sudoku",
-        "short_desc": "Sudoku sur terminal",
-        "long_desc": "C'est un petit jeu sur terminal avec un générateur de grille aléatoire avec 3 niveaux de difficultés. C'était mon tout premier projet de programmation Java à l'IUT. N'ayant pas encore appris à développer des interfaces graphiques en Java, j'ai créé ce jeu sur terminal. J'étais très content quand j'ai obtenu 17/20 pour ce projet, et c'est là que je suis devenu passionné de la programmation."
-      }
+    "footer": {
+        "action_labels": {
+            "call_me": "M'appeler",
+            "email_me": "M'écrire",
+            "follow_me": "Me suivre"
+        }
+    },
+    "pages": {
+        "not_found": {
+            "heading": "Oups, il semblerait que vous soyez perdu",
+            "homepage_link_text": "Revenez à la page d'accueil"
+        },
+        "home": {
+            "hello": "Bonjour",
+            "about_me_heading": "A propos de moi",
+            "link_texts": {
+                "resume": "CV",
+                "projects": "Projets"
+            },
+            "lead_text": "Je suis ingénieur en informatique ESIEA et concepteur-développeur à l'IGN.",
+            "sublead_text": "Il y a environ 6 ans, j'ai commencé mon parcours dans le domaine de la programmation et depuis je suis passionné par cette discipline. Bien que j'aie commencé avec des technos natives telles que Java ou Python, j'ai récemment trouvé un nouvel engouement pour l'univers du web. Je maîtrise les outils des écosystèmes PHP/Symfony et Java/spring. Actuellement, j'apprends à utiliser des outils JavaScript tels que react et vue.js."
+        },
+        "resume": {
+            "title": "CV",
+            "title_experience": "Expérience",
+            "title_education": "Formations",
+            "title_skillset": "Compétences",
+            "experience_present": "Présent",
+            "experience": {
+                "developer_ign": {
+                    "job_title": "Concepteur-Développeur",
+                    "tasks": {
+                        "1": "développement d'applications web et CLI",
+                        "2": "traitement de données géographiques",
+                        "3": "technologies pratiquées : PHP/Symfony, Javascript, Python, Docker, CircleCI/Travis/Jenkins"
+                    }
+                },
+                "apprenti_ingenieur_ign": {
+                    "job_title": "Développeur Junior (Apprenti)",
+                    "tasks": {
+                        "1": "développement d'applications web et CLI",
+                        "2": "technologies pratiquées : PHP/Symfony, Javascript, Python, Docker, CircleCI/Travis/Jenkins"
+                    }
+                },
+                "apprenti_developpeur_tti": {
+                    "job_title": "Développeur VBA & technicien de support (Apprenti)",
+                    "tasks": {
+                        "1": "développement d'applications en VBA pour le service RH",
+                        "2": "gestion du support informatique et l'inventaire"
+                    }
+                }
+            },
+            "education": {
+                "diplome_ingenieur_esiea": {
+                    "degree": "Diplôme d'ingénieur ESIEA (CTI)",
+                    "course_details": {
+                        "1": "Algorithmique, calculabilité et compléxité",
+                        "2": "Programmation orientée objet",
+                        "3": "Bases de données",
+                        "4": "Cybersécurité",
+                        "5": "Analyse de données"
+                    }
+                },
+                "dut_informatique": {
+                    "degree": "DUT Informatique",
+                    "course_details": {
+                        "1": "Algorithmique & programmation orientée objet",
+                        "2": "Création et administration de bases de données",
+                        "3": "Programmation web serveur & client"
+                    }
+                },
+                "bac_s": {
+                    "degree": "Baccalauréat Scientifique",
+                    "course_details": {
+                        "1": "Spécialité : Sciences de l'ingénieur (SI)"
+                    }
+                }
+            },
+            "skills": {
+                "software_development": "Développement logiciel",
+                "web_development": "Développement web",
+                "database_administration": "Administration des bases de données",
+                "dev_tools": "Outils de développement",
+                "computer_networking": "Réseaux informatiques",
+                "languages": "Langues",
+                "lang_english": "Anglais (bilingue, TOEIC : 990)",
+                "lang_french": "Français (bilingue)",
+                "lang_bengali": "Bengali (langue maternelle)"
+            }
+        },
+        "projects": {
+            "title": "Projets",
+            "source_code": "Code source",
+            "live_demo": "Démo en ligne",
+            "portfolio_website": {
+                "title": "Mon site web portfolio",
+                "short_desc": "Ce site web portfolio",
+                "long_desc": ""
+            },
+            "ar_visiting_card": {
+                "title": "Carte de visite en AR",
+                "short_desc": "",
+                "long_desc": "Mon équipe à l'ESIEA et moi avons développé une application mobile qui présente une carte de visite en réalité augmentée."
+            },
+            "doodle_website": {
+                "title": "Doodle",
+                "short_desc": "",
+                "long_desc": "Dans le cadre d'un projet à l'ESIEA, mon équipe et moi avons développé un site web de sondages de date afin d'aider à l'organisation des évènements collectifs. Le client (frontend) créé en vue.js se sert d'une API maison développée en Java (spring, hibernate)."
+            },
+            "mamanjaipasratelavion_website": {
+                "title": "mamanjaipasratelavion",
+                "short_desc": "Répertoire d'informations de tous les aéroports du monde",
+                "long_desc": "Ceci est le tout premier site web dynamique que mon groupe et moi avons développé avec son backend en PHP et une base de données MySQL. Il s'agit d'une plateforme participative qui collecte et partage toutes sortes d'informations sur les aéroports et informe les gens sur des informations moins connues sur les aéroports afin d'éviter tout problème inattendu."
+            },
+            "youquest_game": {
+                "title": "YouQuest",
+                "short_desc": "Jeu vidéo zelda-like",
+                "long_desc": "C'est un petit jeu vidéo Zelda-like que mon groupe à l'IUT et moi avions développé en Java et JavaFx. Ce jeu contient 2 niveaux de jeu avec une carte différente, rendue à partir d'un plan de tuiles que j'avais créé moi-même. J'ai pu apprendre l'architecture MVC lors de ce premier grand projet de ma formation de DUT Informatique."
+            },
+            "sudoku_game_cli": {
+                "title": "Sudoku",
+                "short_desc": "Sudoku sur terminal",
+                "long_desc": "C'est un petit jeu sur terminal avec un générateur de grille aléatoire avec 3 niveaux de difficultés. C'était mon tout premier projet de programmation Java à l'IUT. N'ayant pas encore appris à développer des interfaces graphiques en Java, j'ai créé ce jeu sur terminal. J'étais très content quand j'ai obtenu 17/20 pour ce projet, et c'est là que je suis devenu passionné de la programmation."
+            }
+        }
     }
-  }
 }

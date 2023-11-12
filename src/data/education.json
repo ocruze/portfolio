@@ -1,26 +1,26 @@
 [
-  {
-    "slug": "diplome_ingenieur_esiea",
-    "start": "2019",
-    "end": "2022",
-    "school": "ESIEA",
-    "school_location": "Ivry-sur-Seine",
-    "course_details_num": 5
-  },
-  {
-    "slug": "dut_informatique",
-    "start": "2017",
-    "end": "2019",
-    "school": "IUT de Montreuil (Université Paris-8)",
-    "school_location": "Montreuil",
-    "course_details_num": 3
-  },
-  {
-    "slug": "bac_s",
-    "start": "2014",
-    "end": "2017",
-    "school": "Lycée Marcel Cachin",
-    "school_location": "Saint-Ouen",
-    "course_details_num": 1
-  }
+    {
+        "slug": "diplome_ingenieur_esiea",
+        "start": "2019",
+        "end": "2022",
+        "school": "ESIEA",
+        "school_location": "Ivry-sur-Seine",
+        "course_details_num": 5
+    },
+    {
+        "slug": "dut_informatique",
+        "start": "2017",
+        "end": "2019",
+        "school": "IUT de Montreuil (Université Paris-8)",
+        "school_location": "Montreuil",
+        "course_details_num": 3
+    },
+    {
+        "slug": "bac_s",
+        "start": "2014",
+        "end": "2017",
+        "school": "Lycée Marcel Cachin",
+        "school_location": "Saint-Ouen",
+        "course_details_num": 1
+    }
 ]
